@@ -22,14 +22,13 @@ public class FPCameraController : MonoBehaviour
     {
         xRotation -= mouseY;
 
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, -44f, 44f);
 
         yRotation += mouseX;
 
         transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
 
         Player.rotation = Quaternion.Euler(0f, yRotation, 0f);
-        Debug.Log(Player.transform.rotation);
     }
 
     void OnLook(InputValue lookValue)
