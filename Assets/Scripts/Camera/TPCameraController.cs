@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 public class TPCameraController : MonoBehaviour
 {
     [SerializeField] Transform cameraTarget;
-    [SerializeField] Transform Player;
     private float mouseX;
     private float mouseY;
     private float yRotation;
@@ -23,29 +22,13 @@ public class TPCameraController : MonoBehaviour
     {
         xRotation -= mouseY;
 
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, -44f, 44f);
 
         yRotation += mouseX;
 
-        cameraTarget.transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
-
-        //Player.rotation = Quaternion.Euler(0f, yRotation, 0f);
-        //Debug.Log(Player.transform.rotation);
+        cameraTarget.transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);    
     }
 
-    private float ClampAngle(float lfAngle, float lfMin, float lfMax)
-    {
-        if (lfAngle< -360f)
-        {
-            lfAngle += 360f;
-        }
-        if (lfAngle > 360f)
-        {
-            lfAngle -= 360f;
-        }
-        
-        return Mathf.Clamp(lfAngle, lfMin, lfMax);
-    }
 
         
 
