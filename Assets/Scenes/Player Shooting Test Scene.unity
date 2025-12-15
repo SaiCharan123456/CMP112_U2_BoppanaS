@@ -996,8 +996,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3cb0d1c553c71d4da9ba4831976d2f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraTarget: {fileID: 921223500}
-  rotationSensitivity: 100
 --- !u!114 &1564051777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1135,6 +1133,8 @@ MonoBehaviour:
     weapon: {fileID: 5356003476425703462}
   - pickupPrefab: {fileID: 8392865252554889841, guid: f707cdb6db255664aa2c8c7c18f48007, type: 3}
     weapon: {fileID: 2346166019548537398}
+  maxItemsToSpawn: 5
+  spawnSpacing: 1
 --- !u!4 &1801213764
 Transform:
   m_ObjectHideFlags: 0
@@ -1266,8 +1266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3cb0d1c553c71d4da9ba4831976d2f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraTarget: {fileID: 921223500}
-  rotationSensitivity: 100
 --- !u!114 &1877618489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1703,6 +1701,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2296340135379911029, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
+      propertyPath: pickupPrefab
+      value: 
+      objectReference: {fileID: 4151837042223601370, guid: 1cf16030cccaf564290d943b3ad437df, type: 3}
     - target: {fileID: 5648215618182946677, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1751,6 +1753,14 @@ PrefabInstance:
       propertyPath: TPSCameraTransform
       value: 
       objectReference: {fileID: 2077826676}
+    - target: {fileID: 7179258998826023911, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
+      propertyPath: dropPoint
+      value: 
+      objectReference: {fileID: 3883984823830378428}
+    - target: {fileID: 8432185972512138085, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
+      propertyPath: pickupPrefab
+      value: 
+      objectReference: {fileID: 8392865252554889841, guid: f707cdb6db255664aa2c8c7c18f48007, type: 3}
     - target: {fileID: 8791607986745815587, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1760,6 +1770,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
+--- !u!4 &3883984823830378428 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 888090475438048596, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
+  m_PrefabInstance: {fileID: 3883984823830378427}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4029195940701260172 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7088931600404547807, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
