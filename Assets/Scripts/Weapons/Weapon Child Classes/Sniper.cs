@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Sniper : Weapon
 {
+    // Define sniper-specific stats
     protected override void SetupStats()
     {
         weaponName = "Sniper";

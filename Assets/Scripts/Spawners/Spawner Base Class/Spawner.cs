@@ -18,6 +18,8 @@ public abstract class Spawner : MonoBehaviour
         }
     }
 
+
+    // Get a random spawn point from the array
     protected Transform GetRandomSpawnPoint()
     {
         if (spawnPoints == null || spawnPoints.Length == 0)
@@ -26,5 +28,7 @@ public abstract class Spawner : MonoBehaviour
         return spawnPoints[Random.Range(0, spawnPoints.Length)];
     }
 
+
+    // Abstract method to be implemented by child classes for spawning logic
     protected abstract void Spawn();
 }

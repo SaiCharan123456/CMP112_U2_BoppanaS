@@ -16,12 +16,14 @@ public abstract class ThrowableWeapon : MonoBehaviour
     protected Transform cameraTransform;
     [SerializeField] private GameObject pickupPrefab;
 
+    // Event triggered when the throwable weapon is depleted
     public Action<ThrowableWeapon> OnDepleted;
 
 
     protected int currentCount;
 
-    
+
+    // Initialize the throwable weapon with necessary references
     public virtual void Initialize(Transform cam, Animator anim, Transform spawnPoint)
     {
         cameraTransform = cam;
@@ -34,6 +36,7 @@ public abstract class ThrowableWeapon : MonoBehaviour
 
     public GameObject GetPickupPrefab() => pickupPrefab;
 
+ 
     public virtual void TryUse()
     {
         if (currentCount > 0)
@@ -44,10 +47,13 @@ public abstract class ThrowableWeapon : MonoBehaviour
         
     }
 
+       
     public virtual void Release() 
     {
         
         currentCount--;
+
+        // Check for depletion
 
         if (currentCount <= 0)
         {

@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class PlayerWeaponController : MonoBehaviour
 {
@@ -22,10 +24,11 @@ public class PlayerWeaponController : MonoBehaviour
     [SerializeField] private float dropUpForce = 2f;
     [SerializeField] private Transform dropPoint;
 
-
+    // Internal state
     private List<MonoBehaviour> weaponSlots = new List<MonoBehaviour>();
     private MonoBehaviour currentWeapon;
     private int currentSlotIndex = -1;
+
 
     private void Awake()
     {
@@ -49,37 +52,57 @@ public class PlayerWeaponController : MonoBehaviour
     }
 
 
+    // Select weapon slot
     public void SelectSlot(int slotIndex)
     {
-        if (slotIndex < 0 || slotIndex >= weaponSlots.Count) return;
+        // Validate slot index
+        if (slotIndex < 0 || slotIndex >= weaponSlots.Count) 
+        { 
+            return;
+        }
 
         MonoBehaviour selected = weaponSlots[slotIndex];
 
+
+        // If slot is empty, unequip current weapon
         if (currentWeapon == selected)
         {
+            // Unequip current weapon
             SetWeaponActive(currentWeapon, false, 0);
             currentWeapon = null;
             currentSlotIndex = -1;
         }
         else
         {
+
+            // Switch weapons
             SetWeaponActive(currentWeapon, false, 0);
 
+            // Equip selected weapon
             currentWeapon = selected;
             currentSlotIndex = slotIndex;
             SetWeaponActive(currentWeapon, true, 1);
         }
 
+        // Update UI
         UpdateUISlots();
     }
 
+
+    // Activate or deactivate weapon and set animator layer weight
     private void SetWeaponActive(MonoBehaviour weapon, bool value, float weight)
     {
-        if (weapon == null) return;
+        if (weapon == null)
+        {
+            return;
+        }
+
         weapon.gameObject.SetActive(value);
         animator.SetLayerWeight(animator.GetLayerIndex(weapon.gameObject.name), weight);
     }
 
+
+    // Update UI to reflect current slot selection
     private void UpdateUISlots()
     {
         for (int i = 0; i < uiSlots.Count; i++)
@@ -88,6 +111,8 @@ public class PlayerWeaponController : MonoBehaviour
         }
     }
 
+
+    // Input handlers
     public void OnShoot(InputValue value)
     {
         if (!value.isPressed) return;
@@ -103,42 +128,15 @@ public class PlayerWeaponController : MonoBehaviour
         if (currentWeapon is Weapon gun) gun.TryReload();
     }
 
-    public void OnDropWeapon(InputValue value)
+    public void OnDrop(InputValue value)
     {
         if (!value.isPressed)
             return;
 
+        Debug.Log("Drop weapon input received");
+
         DropCurrentWeapon();
     }
-
-    private void DropCurrentWeapon()
-    {
-        if (currentWeapon == null || currentSlotIndex < 0)
-            return;
-
-        MonoBehaviour weaponToDrop = currentWeapon;
-        int slotIndex = currentSlotIndex;
-
-        // 1. Unequip
-        SetWeaponActive(weaponToDrop, false, 0);
-
-        currentWeapon = null;
-        currentSlotIndex = -1;
-
-        // 2. Remove from slot
-        weaponSlots[slotIndex] = null;
-
-        // 3. Clear UI
-        if (uiSlots.Count > slotIndex)
-            uiSlots[slotIndex].Clear();
-
-        // 4. Spawn pickup in world
-        SpawnPickup(weaponToDrop);
-
-        Debug.Log($"Dropped weapon: {weaponToDrop.name}");
-    }
-
-
 
     public void OnSlot1(InputValue value)
     {
@@ -160,6 +158,43 @@ public class PlayerWeaponController : MonoBehaviour
         if (value.isPressed) SelectSlot(3);
     }
 
+
+    // Drop currently equipped weapon
+    private void DropCurrentWeapon()
+    {
+        if (currentWeapon == null || currentSlotIndex < 0)
+        {
+            return;
+        }
+
+        
+        MonoBehaviour weaponToDrop = currentWeapon;
+        int slotIndex = currentSlotIndex;
+
+        // 1. Unequip
+        SetWeaponActive(weaponToDrop, false, 0);
+
+        currentWeapon = null;
+        currentSlotIndex = -1;
+
+        // 2. Remove from slot
+        weaponSlots[slotIndex] = null;
+
+        // 3. Clear UI
+        if (uiSlots.Count > slotIndex)
+        {
+            uiSlots[slotIndex].Clear();
+        }
+             
+
+         // 4. Spawn pickup in world
+         SpawnPickup(weaponToDrop);
+
+         Debug.Log($"Dropped weapon: {weaponToDrop.name}");
+    }
+
+
+    // Spawn weapon pickup in the world
     private void SpawnPickup(MonoBehaviour weapon)
     {
         GameObject prefab = null;
@@ -170,13 +205,39 @@ public class PlayerWeaponController : MonoBehaviour
             prefab = gren.GetPickupPrefab();
 
         if (prefab == null || dropPoint == null)
+        {
+            Debug.LogWarning("Pickup prefab or drop point is missing.");
             return;
+        }
+            
 
-        GameObject pickup = Instantiate(
-            prefab,
-            dropPoint.position,
-            Quaternion.identity
-        );
+        // Add a small offset to avoid the weapon being stuck in the drop point
+        Vector3 spawnPosition = dropPoint.position + new Vector3(0, 1, 0); // Slightly above
+
+        // Instantiate the weapon prefab as a pickup
+        GameObject pickup = Instantiate(prefab, spawnPosition, Quaternion.identity);
+
+        //` Set weapon in pickup script
+        WeaponPickUp pickupScript = pickup.GetComponent<WeaponPickUp>();
+
+        if (pickupScript != null)
+        {
+            pickupScript.SetWeapon(weapon);
+        }
+        else
+        {
+            Debug.LogWarning("PickUpWeapon script is missing on " );
+        }
+
+        // Disable trigger during drop
+
+        Collider weaponCollider = pickup.GetComponent<Collider>();
+
+        if (weaponCollider != null)
+        {
+            weaponCollider.isTrigger = false; 
+        }
+
 
         Rigidbody rb = pickup.GetComponent<Rigidbody>();
         if (rb != null)
@@ -187,10 +248,25 @@ public class PlayerWeaponController : MonoBehaviour
 
             rb.AddForce(force, ForceMode.Impulse);
         }
+        else
+        {
+            Debug.LogWarning("Rigidbody missing on the pickup prefab.");
+        }
+
+        StartCoroutine(WaitAfterDroping(2f));
+
+        weaponCollider.isTrigger = true; // Enable trigger after droping
     }
 
 
+    // Wait after dropping to enable trigger
+    IEnumerator WaitAfterDroping(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+    }
 
+
+    // Pick up weapon and add to slots
     public bool PickUpWeapon(MonoBehaviour weapon)
     {
         if (weapon == null)
@@ -224,6 +300,7 @@ public class PlayerWeaponController : MonoBehaviour
     }
 
 
+    // Register weapon and set references
     private void RegisterWeapon(MonoBehaviour weapon)
     {
         // GUN
@@ -236,15 +313,17 @@ public class PlayerWeaponController : MonoBehaviour
         else if (weapon is Grenade grenade)
         {
             grenade.Initialize(cameraTransform, animator, grenadeThrowPoint);
-            grenade.OnDepleted -= RemoveThrowable; 
+            grenade.OnDepleted -= RemoveThrowable;
             grenade.OnDepleted += RemoveThrowable;
             grenade.gameObject.SetActive(false);
 
-            
+
         }
 
     }
 
+
+    // Remove throwable weapon when depleted
     private void RemoveThrowable(ThrowableWeapon throwable)
     {
         int index = weaponSlots.IndexOf(throwable);
@@ -271,7 +350,6 @@ public class PlayerWeaponController : MonoBehaviour
 
         Debug.Log($"{throwable.name} depleted and removed");
     }
-
 
 
 }
