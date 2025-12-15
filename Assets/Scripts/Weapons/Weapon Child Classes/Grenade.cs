@@ -15,12 +15,15 @@ public class Grenade : ThrowableWeapon
         StartCoroutine(ReleaseAfterDelay(1f));
     }
 
+
+    // Delay the release to sync with animation
     private IEnumerator ReleaseAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
         Release();
     }
 
+    // Execute the grenade throw
     public override void Release()
     {
         if (!throwPoint || !grenadePrefab || !cameraTransform)
@@ -33,6 +36,7 @@ public class Grenade : ThrowableWeapon
             throwPoint.rotation
         );
 
+        // Apply force to throw
         Rigidbody rb = grenade.GetComponent<Rigidbody>();
         rb.AddForce(cameraTransform.forward * throwForce, ForceMode.VelocityChange);
 

@@ -43,8 +43,11 @@ public abstract class Weapon : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected virtual void Awake()
     {
+        // Setup weapon stats
 
         SetupStats();
+
+        // Initialize ammo
 
         currentMagazine = magazineCapacity;
         currentAmmo = maxAmmo;
@@ -58,13 +61,18 @@ public abstract class Weapon : MonoBehaviour
     protected virtual void SetupStats() { }
 
     public void SetReferences(Transform sharedFirePoint, Animator sharedAnimator) 
-    { 
+    {
+        // Set shared references from player weapon controller
         firePoint = sharedFirePoint; 
         animator = sharedAnimator; 
     }
 
+
+    // Try to shoot the weapon
     public virtual void TryShoot()
     {
+
+        // Shoot if fire rate allows and has ammo
         if (Time.time >= nextFireTime && currentMagazine > 0 && !isReloading)
         {
             Shoot();
@@ -75,6 +83,8 @@ public abstract class Weapon : MonoBehaviour
 
     public virtual void TryReload()
     {
+
+        // Start reloading if not full and has ammo
         if (currentMagazine < magazineCapacity && currentAmmo > 0 && !isReloading)
         {
             StartCoroutine(Reload());
@@ -98,8 +108,10 @@ public abstract class Weapon : MonoBehaviour
 
         Debug.Log("Shooting...");
 
+        // Raycast hit info
         RaycastHit hit;
 
+        // Raycast to detect hit
         if (Physics.Raycast(firePoint.position, firePoint.forward, out hit, fireRange))
         {
             Debug.Log("Hit: " + hit.transform.name);
@@ -116,19 +128,24 @@ public abstract class Weapon : MonoBehaviour
             //    hit.rigidbody.AddForce(-hit.normal * impactForce);
             //}
 
+
+            // Impact effect
             if (impactEffect != null)
             {
+                // Create impact effect at hit point
                 GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
                 Destroy(impactGO, 2f);
             }
 
         }
 
+        // Decrease ammo
         currentMagazine--;
 
     }
 
 
+    // Reloading coroutine
     protected virtual IEnumerator Reload()
     {
         isReloading = true;

@@ -1,4 +1,3 @@
-using Unity.Cinemachine;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -23,26 +22,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator animator;
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         groundedPlayer = controller.isGrounded;
 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
-<<<<<<< Updated upstream
-        movement = cameraTransform.transform.TransformDirection(movement);
-        
-        Turn();
 
-        controller.Move(movement * speed * Time.deltaTime);
-=======
         if (TPSCamera.activeSelf)
         {
             movement = TPSCameraTransform.transform.TransformDirection(movement);
@@ -71,7 +57,6 @@ public class PlayerController : MonoBehaviour
         {
             Turn();
         }
->>>>>>> Stashed changes
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);

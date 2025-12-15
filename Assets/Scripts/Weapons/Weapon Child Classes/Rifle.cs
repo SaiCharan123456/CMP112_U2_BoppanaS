@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Rifle : Weapon
 {
+
+    // Define rifle-specific stats
     protected override void SetupStats()
     {
         weaponName = "Rifle";
