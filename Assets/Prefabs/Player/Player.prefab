@@ -357,6 +357,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &5281287210455648766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 888090475438048596}
+  m_Layer: 0
+  m_Name: Drop Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &888090475438048596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5281287210455648766}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5648215618182946677}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5330357667960296480
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,6 +456,7 @@ Transform:
   - {fileID: 4370057087731110965}
   - {fileID: 5389268318318618155}
   - {fileID: 2655146688111085747}
+  - {fileID: 888090475438048596}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &753234201701405763
@@ -469,7 +501,6 @@ MonoBehaviour:
   FPSCamera: {fileID: 1170913950648767774}
   TPSCamera: {fileID: 0}
   controller: {fileID: 753234201701405763}
-  playerBody: {fileID: 875298636839287233}
   speed: 5
   jumpHeight: 1
   gravityValue: -9.81
@@ -529,7 +560,7 @@ MonoBehaviour:
   grenade: {fileID: 2208351525457471328}
   dropForwardForce: 6
   dropUpForce: 2
-  dropPoint: {fileID: 7741876497549526922}
+  dropPoint: {fileID: 888090475438048596}
 --- !u!1001 &6163851083912189397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -650,6 +681,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2346166018207921840, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
+      propertyPath: pickupPrefab
+      value: 
+      objectReference: {fileID: 8392865252554889841, guid: f707cdb6db255664aa2c8c7c18f48007, type: 3}
     - target: {fileID: 2513250566017659650, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -862,6 +897,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5356003475085120672, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
+      propertyPath: pickupPrefab
+      value: 
+      objectReference: {fileID: 4151837042223601370, guid: 1cf16030cccaf564290d943b3ad437df, type: 3}
     - target: {fileID: 5417762063204987573, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
       propertyPath: throwPoint
       value: 
@@ -1090,11 +1129,6 @@ PrefabInstance:
 --- !u!4 &669018635539314777 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6684099413877583244, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
-  m_PrefabInstance: {fileID: 6163851083912189397}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &875298636839287233 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6462606771357641748, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
   m_PrefabInstance: {fileID: 6163851083912189397}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2208351525457471328 stripped
