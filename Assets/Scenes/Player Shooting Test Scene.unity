@@ -1705,6 +1705,10 @@ PrefabInstance:
       propertyPath: pickupPrefab
       value: 
       objectReference: {fileID: 4151837042223601370, guid: 1cf16030cccaf564290d943b3ad437df, type: 3}
+    - target: {fileID: 5208449678556681878, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5648215618182946677, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1757,6 +1761,10 @@ PrefabInstance:
       propertyPath: dropPoint
       value: 
       objectReference: {fileID: 3883984823830378428}
+    - target: {fileID: 7730304685922852187, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8432185972512138085, guid: 5e8a4eb0b6853184c8fbf6faafb254ae, type: 3}
       propertyPath: pickupPrefab
       value: 
