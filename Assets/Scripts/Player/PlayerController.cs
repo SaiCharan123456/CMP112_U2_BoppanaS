@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject FPSCamera;
     [SerializeField] GameObject TPSCamera;
     [SerializeField] CharacterController controller;
+    [SerializeField] GameObject playerBody;
     private float movementX;
     private float movementY;
     [SerializeField] float speed = 5;
@@ -38,7 +39,8 @@ public class PlayerController : MonoBehaviour
             movement = FPSCameraTransform.transform.TransformDirection(movement);
         }
             
-
+        
+           
         if (movementX != 0 || movementY != 0)
         {
             isMoving = true;
@@ -68,13 +70,12 @@ public class PlayerController : MonoBehaviour
     void Turn()
     {
         Vector3 currentLookDirection = controller.velocity.normalized;
-        currentLookDirection.y = 0;
 
-        currentLookDirection.Normalize();
+        currentLookDirection.y = 0;        
 
         Quaternion targetRotation = Quaternion.LookRotation(currentLookDirection);
 
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * turningSpeed);
+        playerBody.transform.rotation = Quaternion.Slerp(playerBody.transform.rotation, targetRotation, Time.deltaTime * turningSpeed);
     }
 
     void OnMove(InputValue movementValue)
@@ -89,7 +90,7 @@ public class PlayerController : MonoBehaviour
     {
         if (JumpValue.isPressed && groundedPlayer)
         {
-            playerVelocity.y = Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);  
+            playerVelocity.y = Mathf.Sqrt(jumpHeight * -2.0f * gravityValue);  
 
             animator.SetTrigger("Jump" );
         }
