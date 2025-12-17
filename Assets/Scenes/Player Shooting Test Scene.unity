@@ -289,6 +289,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &482464064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 482464066}
+  - component: {fileID: 482464065}
+  m_Layer: 0
+  m_Name: 'Ammo Spawner '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &482464065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482464064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9250ece09a7db48bfbabb8a7eeff95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 472446925}
+  - {fileID: 213164848}
+  - {fileID: 1791285073}
+  - {fileID: 1682077740}
+  spawnOnStart: 1
+  spawnDelay: 0
+  ammoPickupPrefabs:
+  - {fileID: 8388445275579268653, guid: acc2db5ecd093374eb07d7fca919279d, type: 3}
+  - {fileID: 6732679369725371344, guid: 886f6657f62472e4aacdec7aa437e1aa, type: 3}
+  - {fileID: 1146839037730280483, guid: b121f77f4f72a924ba5fb662da366469, type: 3}
+  minAmmoToSpawn: 5
+  maxAmmoToSpawn: 10
+  respawnTime: 10
+--- !u!4 &482464066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482464064}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &648804559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,6 +1891,7 @@ SceneRoots:
   - {fileID: 1135582828}
   - {fileID: 986799705}
   - {fileID: 1801213764}
+  - {fileID: 482464066}
   - {fileID: 472446925}
   - {fileID: 1791285073}
   - {fileID: 213164848}
