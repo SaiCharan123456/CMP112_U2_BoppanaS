@@ -24,6 +24,10 @@ public abstract class Weapon : MonoBehaviour
     [SerializeField] protected int maxAmmo = 120;
     [SerializeField] protected float reloadTime = 3f;
 
+    [Header("Ammo Type")]
+    [SerializeField] private AmmoType ammoType;
+    public AmmoType AmmoType => ammoType;
+
     [Header("Animation")]
     [SerializeField] protected Animator animator;
 
@@ -50,7 +54,7 @@ public abstract class Weapon : MonoBehaviour
         // Initialize ammo
 
         currentMagazine = magazineCapacity;
-        currentAmmo = maxAmmo;
+        currentAmmo = 0;
 
     }
 
@@ -59,6 +63,15 @@ public abstract class Weapon : MonoBehaviour
     public GameObject GetPickupPrefab() => pickupPrefab;
 
     protected virtual void SetupStats() { }
+
+
+    public bool CanReceiveAmmo() => currentAmmo < maxAmmo;
+
+    public void AddAmmo(int amount)
+    {
+        currentAmmo = Mathf.Clamp(currentAmmo + amount, 0, maxAmmo);
+        Debug.Log($"{weaponName} received ammo. Current: {currentAmmo}");
+    }
 
     public void SetReferences(Transform sharedFirePoint, Animator sharedAnimator) 
     {

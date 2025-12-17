@@ -265,6 +265,29 @@ public class PlayerWeaponController : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
     }
 
+    public bool AddAmmo(AmmoType ammoType, int amount)
+    {
+        bool ammoAdded = false;
+
+        foreach (var slot in weaponSlots)
+        {
+            if (slot is Weapon weapon && weapon.AmmoType == ammoType)
+            {
+                if (weapon.CanReceiveAmmo())
+                {
+                    weapon.AddAmmo(amount);
+                    ammoAdded = true;
+                }
+            }
+        }
+
+        if (!ammoAdded)
+        {
+            Debug.Log("No weapon found that uses this ammo type.");
+        }
+
+        return ammoAdded;
+    }
 
     // Pick up weapon and add to slots
     public bool PickUpWeapon(MonoBehaviour weapon)
