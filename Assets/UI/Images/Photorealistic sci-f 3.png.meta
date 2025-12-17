@@ -1,0 +1,1537 @@
+fileFormatVersion: 2
+guid: c2a0a6a19fba4914982e840f5053ad76
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Play
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 738
+        width: 401
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911d46a6870e7d948ba356e17a74c3a0
+      internalID: -971927542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quit
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 741
+        width: 409
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e93e2c7c7a317348a613cc9cccaeab0
+      internalID: 723633830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: How To Play
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 743
+        width: 512
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ee556decf7e6b48bf4e21c5c9c20ab
+      internalID: 1835229630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_3
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1017
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96860c59b9de3884aa0f3edecb79ecf4
+      internalID: 631080917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1008
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ae2619e2e3451459561a2a7fba7cda
+      internalID: 774699971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_5
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1009
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b0bab4bfad3924c89db9c5ec5c5317
+      internalID: -1535491903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1000
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d84a9380c8a6d4786cd152fea0ad0b
+      internalID: -936141504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 991
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9233479031b1b4499569ebf5281e24a
+      internalID: -504507702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_8
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 995
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37680ffee7edaae46a67ef88acac3b86
+      internalID: -123713974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 984
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4267d03e59b058c43be68a85b921383a
+      internalID: 917385699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_10
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 987
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bb3247ea4358944885c4efa890c7bd
+      internalID: -589784490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 976
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af0ed5d94a9229419454371bd38e419
+      internalID: -1868302800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_12
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 979
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6344514dc7f4946a46c683b6a9630b
+      internalID: 638619670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_13
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 961
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5099ee13a26da1b418abd609a4d94fc0
+      internalID: -489302701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 952
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb6a267c392c114d944442c62b9f98a
+      internalID: -1822516799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_15
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 953
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258906080dfaa154094969afd4a40fe7
+      internalID: 1557561701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_16
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 721
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5fc61ca4c3c9944b841a60dd39729f
+      internalID: -596717142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_17
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 720
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20e0bf322b24274f9e45a723322dd0d
+      internalID: -2079241203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 695
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdc2132d5dfd9d4f9158555e6078c10
+      internalID: 773250490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_19
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 696
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e364a890a95e964c8f4c12d38afc912
+      internalID: -1926254967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 412
+        width: 294
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c529fc92f663be44a9ad2439f362ded4
+      internalID: 1116461118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resume
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 415
+        width: 278
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8540556b763adcf40a58267d3e20edca
+      internalID: -802523429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_22
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 688
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24eeb1191d01f84982a9cd6ad021165
+      internalID: -77245950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tasks
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 392
+        width: 269
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da285249fcd6c046bb8f74a6c1fa67e
+      internalID: 1449244693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 429
+        width: 252
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741d81fead5b1c7408ea86b3e2ae79b9
+      internalID: -1164785632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_25
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 681
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b603bafc3241c43945b226ba856c1e
+      internalID: 125460382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tourch
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 94
+        width: 128
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bc8bfac1d9ee245bff7d71a42fed9b
+      internalID: -851472256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_27
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 464
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2942aba790c2b46b359afe615c4d0d
+      internalID: 1028169781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_28
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 442
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f79d9740a754e4baddb1bac09f5ccd
+      internalID: -345434042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_29
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 450
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9378333ebc09e94fab9763c9eae5e55
+      internalID: 1513192798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_30
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 401
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9e7b42bddd3c14f8c5cfb68a86ec2a
+      internalID: 1880380686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_31
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 393
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525d4ef926d7f53469af8dd042feae41
+      internalID: -1102148286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_32
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 392
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7647319c08f11489f99d2c5462b44b
+      internalID: 372155720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retry
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 111
+        width: 269
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996ab818ea621b940bad7e468ac21496
+      internalID: -1456114401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_34
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 94
+        width: 243
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bc83459f3585f4ab2c903405649f98
+      internalID: 859503300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_35
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 371
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4abf01feecdb4f44976e8af964d746d
+      internalID: 1053319733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_36
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 368
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111b25ce4550f994d85f9e8a245b21a2
+      internalID: -1396598038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 352
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb009f0cc6294b4f8f078568d1d70c1
+      internalID: -1591281901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 318
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adf05f6718f9f540988536dd34a087b
+      internalID: -276842505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_39
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 143
+        width: 273
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65799938b0cf1474ba3610acca0d71a4
+      internalID: 1449069811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_40
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 116
+        width: 268
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cec0b758ac7c8749bacecd638e7bbcb
+      internalID: -641824763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_41
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 311
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57d8c02f3bb6b34a95eb00c5eb0a6c0
+      internalID: 156801905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 279
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f59d381aa936647b701688a3a246c7
+      internalID: 2109146141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 255
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2390ed306bc1b6043a37a94dfbdb5f2f
+      internalID: 2052408039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 246
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043d8adf1fc4a774db1d0bf123fc48e1
+      internalID: 954201624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 230
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b07aea66b93d6b4386945c17b804650
+      internalID: -393179018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 237
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57dd65a1fc095b4eb7fa1362b7b2160
+      internalID: 267762857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 216
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d838333f0e5daa4fb968baa42c09e79
+      internalID: 1026104841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_48
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 213
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e3107b75acde3499f056345f0b9a65
+      internalID: 1810915927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_49
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 205
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e129bb013c513e4fa044e0f2817f04d
+      internalID: 1553055619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 183
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab3237fcae6563459180fb4991f6844
+      internalID: 997975310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_51
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 186
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4885407a6d54e439465e1ad4543a80
+      internalID: -1133091924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 161
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a3a584970da1c419fa635eb15356ed
+      internalID: -1479758802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_53
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 170
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6112cf85c9f4b2429ee701183c57090
+      internalID: -1934519165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_54
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 155
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaca2aa5a4a9ddd4fbd78b289bde131f
+      internalID: 1167606776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 143
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97f44a26d6cc2c498cbdd8a8aa60ac1
+      internalID: 544438614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_56
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 113
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0dc052568299a47aac6fd70fe97a16
+      internalID: 1201579634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_57
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 95
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236c14f08ad0d22459c8891f1d3c7b8b
+      internalID: 771767601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 82
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4027a1dff6b1d1945bb9318cbd2f5e4f
+      internalID: -1106924192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_59
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 25
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0b7988580143640931af956498300c
+      internalID: 1473132962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f 3_60
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af43f450328b9e4b9ce1836ad32bbc0
+      internalID: -1398137173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2d69c5374de3b3940b98f12f9bd5d95f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      Ghost: -1164785632
+      How To Play: 1835229630
+      Pause: 1116461118
+      Photorealistic sci-f 3_10: -589784490
+      Photorealistic sci-f 3_11: -1868302800
+      Photorealistic sci-f 3_12: 638619670
+      Photorealistic sci-f 3_13: -489302701
+      Photorealistic sci-f 3_14: -1822516799
+      Photorealistic sci-f 3_15: 1557561701
+      Photorealistic sci-f 3_16: -596717142
+      Photorealistic sci-f 3_17: -2079241203
+      Photorealistic sci-f 3_18: 773250490
+      Photorealistic sci-f 3_19: -1926254967
+      Photorealistic sci-f 3_22: -77245950
+      Photorealistic sci-f 3_25: 125460382
+      Photorealistic sci-f 3_27: 1028169781
+      Photorealistic sci-f 3_28: -345434042
+      Photorealistic sci-f 3_29: 1513192798
+      Photorealistic sci-f 3_3: 631080917
+      Photorealistic sci-f 3_30: 1880380686
+      Photorealistic sci-f 3_31: -1102148286
+      Photorealistic sci-f 3_32: 372155720
+      Photorealistic sci-f 3_34: 859503300
+      Photorealistic sci-f 3_35: 1053319733
+      Photorealistic sci-f 3_36: -1396598038
+      Photorealistic sci-f 3_37: -1591281901
+      Photorealistic sci-f 3_38: -276842505
+      Photorealistic sci-f 3_39: 1449069811
+      Photorealistic sci-f 3_4: 774699971
+      Photorealistic sci-f 3_40: -641824763
+      Photorealistic sci-f 3_41: 156801905
+      Photorealistic sci-f 3_42: 2109146141
+      Photorealistic sci-f 3_43: 2052408039
+      Photorealistic sci-f 3_44: 954201624
+      Photorealistic sci-f 3_45: -393179018
+      Photorealistic sci-f 3_46: 267762857
+      Photorealistic sci-f 3_47: 1026104841
+      Photorealistic sci-f 3_48: 1810915927
+      Photorealistic sci-f 3_49: 1553055619
+      Photorealistic sci-f 3_5: -1535491903
+      Photorealistic sci-f 3_50: 997975310
+      Photorealistic sci-f 3_51: -1133091924
+      Photorealistic sci-f 3_52: -1479758802
+      Photorealistic sci-f 3_53: -1934519165
+      Photorealistic sci-f 3_54: 1167606776
+      Photorealistic sci-f 3_55: 544438614
+      Photorealistic sci-f 3_56: 1201579634
+      Photorealistic sci-f 3_57: 771767601
+      Photorealistic sci-f 3_58: -1106924192
+      Photorealistic sci-f 3_59: 1473132962
+      Photorealistic sci-f 3_6: -936141504
+      Photorealistic sci-f 3_60: -1398137173
+      Photorealistic sci-f 3_7: -504507702
+      Photorealistic sci-f 3_8: -123713974
+      Photorealistic sci-f 3_9: 917385699
+      Play: -971927542
+      Quit: 723633830
+      Resume: -802523429
+      Retry: -1456114401
+      Tasks: 1449244693
+      Tourch: -851472256
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

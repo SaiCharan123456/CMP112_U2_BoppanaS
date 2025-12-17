@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class FPCameraController : MonoBehaviour
 {
     [SerializeField] Transform Player;
+    public Transform playerBody;
     private float mouseX;
     private float mouseY;
     private float yRotation;
@@ -26,9 +27,12 @@ public class FPCameraController : MonoBehaviour
 
         yRotation += mouseX;
 
+        //yRotation = Mathf.Clamp(yRotation, -44, 44);
+
         transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
 
         Player.rotation = Quaternion.Euler(0f, yRotation, 0f);
+        playerBody.Rotate(Vector3.up * mouseX);
     }
 
     void OnLook(InputValue lookValue)

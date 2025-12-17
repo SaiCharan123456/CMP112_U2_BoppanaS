@@ -4,38 +4,59 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] Transform cameraTransform;
+    [SerializeField] Transform FPSCameraTransform;
+    [SerializeField] Transform TPSCameraTransform;
+    [SerializeField] GameObject FPSCamera;
+    [SerializeField] GameObject TPSCamera;
     [SerializeField] CharacterController controller;
-    [SerializeField] GameObject playerBody;
     private float movementX;
     private float movementY;
     [SerializeField] float speed = 5;
     [SerializeField] float jumpHeight = 1.0f;
     [SerializeField] float gravityValue = -9.81f;
-    [SerializeField] float turningSpeed = 10.0f;
+    [SerializeField] float turningSpeed = 5.0f;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
+    private bool isMoving;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] Animator animator;
 
-    // Update is called once per frame
+
     void Update()
     {
         groundedPlayer = controller.isGrounded;
 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
-        movement = cameraTransform.transform.TransformDirection(movement);
+
+        if (TPSCamera.activeSelf)
+        {
+            movement = TPSCameraTransform.transform.TransformDirection(movement);
+        }
+        if (FPSCamera.activeSelf)
+        {
+            movement = FPSCameraTransform.transform.TransformDirection(movement);
+        }
+            
+
+        if (movementX != 0 || movementY != 0)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
+
+        animator.SetBool("isRunning", isMoving);
 
 
         controller.Move(movement * speed * Time.deltaTime);
     
-
-        Turn();
+        if (TPSCamera.activeSelf)
+        {
+            Turn();
+        }
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
@@ -49,10 +70,11 @@ public class PlayerController : MonoBehaviour
         Vector3 currentLookDirection = controller.velocity.normalized;
         currentLookDirection.y = 0;
 
-        Quaternion targetRotation = Quaternion.LookRotation(currentLookDirection);
-   
+        currentLookDirection.Normalize();
 
-        playerBody.transform.rotation = Quaternion.Slerp(playerBody.transform.rotation, targetRotation, Time.deltaTime * turningSpeed);
+        Quaternion targetRotation = Quaternion.LookRotation(currentLookDirection);
+
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * turningSpeed);
     }
 
     void OnMove(InputValue movementValue)
@@ -67,7 +89,9 @@ public class PlayerController : MonoBehaviour
     {
         if (JumpValue.isPressed && groundedPlayer)
         {
-            playerVelocity.y = Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);            
+            playerVelocity.y = Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);  
+
+            animator.SetTrigger("Jump" );
         }
     }
 
