@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public abstract class Spawner : MonoBehaviour
 {
@@ -10,12 +11,15 @@ public abstract class Spawner : MonoBehaviour
     protected virtual void Start()
     {
         if (spawnOnStart)
-        {
-            if (spawnDelay > 0f)
-                Invoke(nameof(Spawn), spawnDelay);
-            else
-                Spawn();
-        }
+            StartCoroutine(SpawnRoutine());
+    }
+
+    protected IEnumerator SpawnRoutine()
+    {
+        if (spawnDelay > 0f)
+            yield return new WaitForSeconds(spawnDelay);
+
+        Spawn();
     }
 
 
