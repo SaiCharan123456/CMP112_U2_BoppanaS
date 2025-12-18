@@ -36,10 +36,9 @@ Thumbs.db
 *.unitypackage
 # Auto detect text files
 
-# Git LFS – ONLY large textures
-*.tga filter=lfs diff=lfs merge=lfs -text
-* !text !filter !merge !diff
 Assets/Textutres/Player/Textures/Character/Adventure_02_Albedo_02.tga filter=lfs diff=lfs merge=lfs -text
+Assets/Textutres/Player/Textures/Character/Adventure_02_Metallic.tga  filter=lfs diff=lfs merge=lfs -text
+Assets/Textutres/Player/Textures/Character/Adventure_02_Normals.tga   filter=lfs diff=lfs merge=lfs -text
 Assets/Textutres/Player/Textures/Character/Adventure_02_Metallic.tga filter=lfs diff=lfs merge=lfs -text
 Assets/Textutres/Player/Textures/Character/Adventure_02_Normals.tga filter=lfs diff=lfs merge=lfs -text
 Assets/Textutres/Enemies/Mini[[:space:]]Boss/*.tga !text !filter !merge !diff
@@ -47,3 +46,4 @@ Assets/Textutres/Player/Textures/Character/Adventure_02_Ao.tga !text !filter !me
 Assets/Textutres/Player/Textures/Character/Adventure_02_Glasses.tga !text !filter !merge !diff
 Assets/Textutres/Tnt/*.tga !text !filter !merge !diff
 Assets/Textutres/Weapons/Grenade/*.tga !text !filter !merge !diff
+* !text !filter !merge !diff
