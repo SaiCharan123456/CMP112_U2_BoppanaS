@@ -34,16 +34,10 @@ Thumbs.db
 # Unity cache files
 *.stacktrace
 *.unitypackage
-*.png filter=lfs diff=lfs merge=lfs -text
+# Auto detect text files
+
+# Git LFS – ONLY large textures
 *.tga filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.wav filter=lfs diff=lfs merge=lfs -text
-*.mp3 filter=lfs diff=lfs merge=lfs -text
-*.ogg filter=lfs diff=lfs merge=lfs -text
-*.fbx filter=lfs diff=lfs merge=lfs -text
-*.anim filter=lfs diff=lfs merge=lfs -text
-*.prefab filter=lfs diff=lfs merge=lfs -text
-*.mat filter=lfs diff=lfs merge=lfs -text
 * !text !filter !merge !diff
 Assets/Textutres/Player/Textures/Character/Adventure_02_Albedo_02.tga filter=lfs diff=lfs merge=lfs -text
 Assets/Textutres/Player/Textures/Character/Adventure_02_Metallic.tga filter=lfs diff=lfs merge=lfs -text
