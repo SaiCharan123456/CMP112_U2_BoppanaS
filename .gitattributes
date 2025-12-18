@@ -35,10 +35,7 @@ Thumbs.db
 *.stacktrace
 *.unitypackage
 # Auto detect text files
-
 Assets/Textutres/Player/Textures/Character/Adventure_02_Albedo_02.tga filter=lfs diff=lfs merge=lfs -text
-Assets/Textutres/Player/Textures/Character/Adventure_02_Metallic.tga  filter=lfs diff=lfs merge=lfs -text
-Assets/Textutres/Player/Textures/Character/Adventure_02_Normals.tga   filter=lfs diff=lfs merge=lfs -text
 Assets/Textutres/Player/Textures/Character/Adventure_02_Metallic.tga filter=lfs diff=lfs merge=lfs -text
 Assets/Textutres/Player/Textures/Character/Adventure_02_Normals.tga filter=lfs diff=lfs merge=lfs -text
 Assets/Textutres/Enemies/Mini[[:space:]]Boss/*.tga !text !filter !merge !diff
