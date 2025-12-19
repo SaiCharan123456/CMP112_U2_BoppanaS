@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7822753204050536685, guid: 6f8e61bcfda026941b9194b1e2dcb048, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 44c435274f033b645a2e1ae7fb37c9da, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -473,7 +477,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1827629865255471146, guid: 2b95b8c937251bf4a862469a23da16b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.8312955
+      value: 5.52
       objectReference: {fileID: 0}
     - target: {fileID: 1827629865255471146, guid: 2b95b8c937251bf4a862469a23da16b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -515,6 +519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Biomech_Mutant_Skin_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1827629865262933920, guid: 2b95b8c937251bf4a862469a23da16b2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f723bba0b71698e45a73d13b80cb4abc, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -664,6 +672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Biomech_Mutant_Skin_1_bloody
       objectReference: {fileID: 0}
+    - target: {fileID: 7365748923767361718, guid: 4e14536821986c54bb8c6d3160c19cfc, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f723bba0b71698e45a73d13b80cb4abc, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -677,6 +689,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1517297902551988990, guid: c28d3ac6d9c8f6d4188f05567cc75ceb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 44c435274f033b645a2e1ae7fb37c9da, type: 2}
     - target: {fileID: 4895037534019756164, guid: c28d3ac6d9c8f6d4188f05567cc75ceb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.561682
@@ -835,6 +851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShirtlessZombie_BodyParts_FREE_URP
       objectReference: {fileID: 0}
+    - target: {fileID: 8526921292140686169, guid: ef26b2dc882f2d741b1e5521ca67f8ef, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 44c435274f033b645a2e1ae7fb37c9da, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -862,19 +882,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4538166414361268831, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.022693608
       objectReference: {fileID: 0}
     - target: {fileID: 4538166414361268831, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4538166414361268831, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.9997425
       objectReference: {fileID: 0}
     - target: {fileID: 4538166414361268831, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4538166414361268831, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -882,7 +902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4538166414361268831, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 182.601
       objectReference: {fileID: 0}
     - target: {fileID: 4538166414361268831, guid: 0b6a36d0a9b865147b2cf78e0a904971, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
