@@ -22,10 +22,19 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] Animator animator;
 
+    private Vector3 knockbackVelocity;
+    private float knockbackDecay = 10f;
+
 
     void Update()
     {
         groundedPlayer = controller.isGrounded;
+
+        if (knockbackVelocity.magnitude > 0.1f)
+        {
+            controller.Move(knockbackVelocity * Time.deltaTime);
+            knockbackVelocity = Vector3.Lerp(knockbackVelocity, Vector3.zero, knockbackDecay * Time.deltaTime);
+        }
 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
@@ -65,6 +74,12 @@ public class PlayerController : MonoBehaviour
 
         
 
+    }
+
+    public void ApplyKnockback(Vector3 direction, float force)
+    {
+        direction.y = 0;
+        knockbackVelocity = direction.normalized * force;
     }
 
     void Turn()

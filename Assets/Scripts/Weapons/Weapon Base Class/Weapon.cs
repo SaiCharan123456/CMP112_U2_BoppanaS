@@ -129,12 +129,12 @@ public abstract class Weapon : MonoBehaviour
         {
             Debug.Log("Hit: " + hit.transform.name);
 
-            //Target target = hit.transform.GetComponent<Target>();
+            IDamageable damageable = hit.collider.GetComponentInParent<IDamageable>();
 
-            //if (target != null)
-            //{
-            //    target.TakeDamage(damage);
-            //}
+            if (damageable != null)
+            {
+                damageable.TakeDamage(damage);
+            }
 
             //if (hit.rigidbody != null)
             //{
