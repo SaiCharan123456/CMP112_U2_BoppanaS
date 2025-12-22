@@ -41,6 +41,11 @@ public abstract class Ghost : Enemy
         PlayIdleSound();
     }
 
+    public void Initialize(Transform playerTransform)
+    {
+        player = playerTransform;
+    }
+
     protected override void Update()
     {
         if (isDead || player == null) return;

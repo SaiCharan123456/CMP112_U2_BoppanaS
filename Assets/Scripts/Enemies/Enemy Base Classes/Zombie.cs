@@ -31,6 +31,11 @@ public abstract class Zombie : Enemy
         base.Start();
         currentHealth = maxHealth;
 
+        ZombieManager.Instance.RegisterZombie();
+
+        player = ZombieManager.Instance.Player;
+        walkPoint = ZombieManager.Instance.WayPoints;
+
         if (animator == null)
             animator = GetComponentInChildren<Animator>();
 
@@ -38,6 +43,11 @@ public abstract class Zombie : Enemy
             audioSource = GetComponent<AudioSource>();
     }
 
+    protected virtual void OnDestroy()
+    {
+        if (ZombieManager.Instance != null)
+            ZombieManager.Instance.UnregisterZombie();
+    }
 
     // Expose read-only properties for derived classes if needed
     public float Health => maxHealth;
@@ -60,8 +70,8 @@ public abstract class Zombie : Enemy
         }
 
         // Move towards the current walk point
-        transform.position = Vector3.MoveTowards(transform.position, walkPoint[currentZombiePosition].transform.position, walkSpeed * Time.deltaTime);
-        transform.LookAt(walkPoint[currentZombiePosition].transform.position);
+        agent.SetDestination(walkPoint[currentZombiePosition].transform.position);
+
         animator.SetBool("IsWalking", true);
         animator.SetBool("IsRunning", false);
         PlaySound(walkClip);
@@ -119,6 +129,8 @@ public abstract class Zombie : Enemy
         Debug.Log($"{name} attacks player for {damage}");
         // PlayerHealth.Instance.TakeDamage(damage);
     }
+
+    
 
     public override void TakeDamage(float amount)
     {
