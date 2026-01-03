@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4525367521605428394}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8756014962427471643}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5430187746548612148}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLF_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 716422715766861345}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRF_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5188436216103278637}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRF_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 4671206705307163120}
   - component: {fileID: 4223863868092174188}
   - component: {fileID: 5050857323397685459}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SKM_ArachnidAlienHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 69988612140120364}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -356,7 +356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2294586260407035467}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRF_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3691745484782768332}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: eyeL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -419,7 +419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6334003151222921944}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLF_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +451,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 642126741434648476}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Neck2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -483,7 +483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4570803077825000268}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Neck1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9110397753948604045}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLB_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -547,7 +547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6844424579259364626}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLB_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3689488219076534014}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tongue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -610,7 +610,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5122939038073494198}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: eyeR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -641,7 +641,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2786069302289577744}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRB_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,9 +676,9 @@ GameObject:
   - component: {fileID: 6406211048082491960}
   - component: {fileID: 6864871106655128486}
   - component: {fileID: 4537790455766583181}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Zombie Monster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -817,7 +817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4660126603692437268}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLB_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,7 +849,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3983129495678048293}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tongue_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +880,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7416295588862008353}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLF_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -912,7 +912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2693192237768876590}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tongue_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3681828110085466152}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLB_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -976,7 +976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5025467382671449002}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRB_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1008,7 +1008,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5799514718765454376}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRB_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,7 +1040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3108590321051251150}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRF_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1071,7 +1071,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7052678400223373027}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRB_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1103,7 +1103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7633544639219090840}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLF_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1138,7 +1138,7 @@ GameObject:
   - component: {fileID: 3873037886574144823}
   - component: {fileID: 3673861670297674277}
   - component: {fileID: 3398952862148462937}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AttackCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1202,7 +1202,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -1272,7 +1272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5390428291158123526}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRF_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,7 +1304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2389931586098310821}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLF_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1336,7 +1336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5697400663789472200}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRB_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1368,7 +1368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2846254738343285672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRF_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1400,7 +1400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7576596313969267954}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1432,7 +1432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6289812433850693052}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLB_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1464,7 +1464,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5614786971590355558}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLB_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1496,7 +1496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2481845350635092509}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegRB_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1528,7 +1528,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4016828776990813503}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LegLF_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1560,7 +1560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4750779713912832863}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1591,7 +1591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4658863537368751452}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tongue_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

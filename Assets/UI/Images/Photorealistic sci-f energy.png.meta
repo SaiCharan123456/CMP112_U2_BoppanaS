@@ -1,0 +1,4686 @@
+fileFormatVersion: 2
+guid: 868ab0628b9437e4b900deb8aae2faeb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d278b946d0ddb86448491d617ff8f08e
+      internalID: -647621049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 371
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d068bad5ef55cc4a85a8599aed67261
+      internalID: 295005983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restart
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 554
+        width: 413
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292349429ab250d4792ecf51dac39ca4
+      internalID: -986603619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_3
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1002
+        width: 73
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be784a25a863b5446b0e9b1df06aafb9
+      internalID: -125498332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_4
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1017
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919e6eed70b68204fb2654e63558a6ae
+      internalID: 100673522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reload
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 561
+        width: 437
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb8f8a3e3f610d46ac01bcb3e33f665
+      internalID: 903853702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1008
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d1c57258fe69f438d53f41a3345c80
+      internalID: 168824285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1000
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072b5630b0a73ac4990636c60e1baf72
+      internalID: -1137593906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_8
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 993
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf51531af61b674e94b76c8ece6b324
+      internalID: 753365475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 992
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25aa800e9469d1f45b80fb098ac11cdc
+      internalID: -1632053982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_10
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 994
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e2187adadc9f14da172edc6ca21a7a
+      internalID: -1499206454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 984
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4017d619caa077d46805804f6900c66f
+      internalID: -1595207504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 973
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931e7161327afd04ab73e7bd0006c2d6
+      internalID: 505613732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 960
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dd170eee525df499eab3fdb63eb8c3
+      internalID: -1377020101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_14
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 961
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c20e2b31faefaa4f879cc8037a8515c
+      internalID: 1627098323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_15
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 984
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a593cd5f8d76b244cb4c338caeb38673
+      internalID: 177795980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_16
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 979
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bf5a9ef17ac274e9baa54d6adfa6f8
+      internalID: -247526565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 948
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ca4e974c73ab540bdbb9d54ef4138f
+      internalID: -289222022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 956
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b6e433e2246034c89eaee45f660309
+      internalID: -1422816708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_19
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 956
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff5f3741c41cdd408d60b8f01a73db9
+      internalID: -586609888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_20
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 956
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16c03a2a6bb0fc4898370719875002d
+      internalID: 1699544407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_21
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 929
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68996b785d07ed47b212cfb645b84e1
+      internalID: -1554168383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 916
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2ae8e76ff101d48b3a237eac0ed2ee
+      internalID: -1303897863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 904
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3579b8e36d16b8a4fb733396bd16ec60
+      internalID: 95258993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_24
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 905
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439cb1c9b4ce6fd47b4e4c3e47e571bd
+      internalID: -2143668112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 887
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33039f7775bca944b8745af090fcd987
+      internalID: -560138810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 896
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647fc8ae4e804574bb4dffd5735fbe05
+      internalID: 1583334066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 879
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1d1b57c53f2364b88d68f3d08efba2
+      internalID: 248411278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_28
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 881
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261a77844f0200a45b921791e8033329
+      internalID: -1300614103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 868
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82366accf84bc344972160c47a17747
+      internalID: -1702955842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_30
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 873
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c560e46c054d2fb468a59af74dac6c28
+      internalID: 325868566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_31
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 853
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c78e32c0a712f649a93fdaa4a1b2d5f
+      internalID: 1747700369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 863
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b7e218e7b6edb40ac9b14e3ca6f8ac
+      internalID: 1644096091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_33
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 857
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a0c71bf8cdbe74faccfe3a7beeca42
+      internalID: 1728288865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_34
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 847
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835a46f583120504881e9a1aa54be57d
+      internalID: -1118983278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_35
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 849
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c224ffc62774e9c438b2ffd515f206c1
+      internalID: -240075744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 837
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51d4bbf84dcc8340844a013df3dae93
+      internalID: 1925494034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 830
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749f9edb397cf10409fd6e5049e60b09
+      internalID: -1609498228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_38
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 833
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512f13326a9e145469c2289e179cac84
+      internalID: -651579448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_39
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 822
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3243af6a7b09b4e9b81e2319ff4a82
+      internalID: -832538751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_40
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 825
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63e5652bf9462b49aa9f5445e82ba64
+      internalID: -1045938769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 813
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a539271a7901f0747ba4c5b3804af48c
+      internalID: 870093302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_42
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 817
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a464881984142147abcda3e0dcb8f7d
+      internalID: 94912903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 808
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da56247cb9c7d945bdb70bb9c192e5b
+      internalID: 1778988017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_44
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 793
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6029e7860917ba3478ffd70a43867150
+      internalID: -1680950151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 798
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe3bbcecafcad94fb6f101fb598fd9f
+      internalID: -1701667710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 792
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3abc5d4e65e58349978390c00e667b3
+      internalID: 752830112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_47
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 785
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a668a9e0d906a47b48703669c54a0a
+      internalID: 1571314444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 783
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ad2e60402125943a369d10ab9d4102
+      internalID: -533870074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_49
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 775
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c7ba1482c66e34e9cbdb01d0ed82f0
+      internalID: -1722307988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_50
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 777
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a018813b53d391c46a58c0a2b0552321
+      internalID: 538822402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_51
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 769
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6124f9d6285314f9929c283243fc59
+      internalID: -175008829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_52
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 769
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5833d23507dbe409674d41985adc3d
+      internalID: 1181060017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 759
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d4329e98319a542a6c84c54430c101
+      internalID: 20195005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_54
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 763
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba798c708db94f54ca68d01b3a2ac28a
+      internalID: -603540392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_55
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 753
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d11bcc61552bc043b6f6a87febd3142
+      internalID: 286786517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_56
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 751
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd67664a8d885c546b1b5ee8d6dd49ad
+      internalID: 46954482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_57
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 737
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bb64d7051ec7144905ea5c78315f42
+      internalID: 416151375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_58
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 741
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a76b67be6918f40943558caca143c1
+      internalID: 147412081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_59
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 734
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a9c2597272b374f85c9cfd0b504e95
+      internalID: 1826128279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_60
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 736
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca612cd2b40995419f7f6358c9df765
+      internalID: 1444021395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_61
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 729
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e9176400ce00e41be14fddb6f03411
+      internalID: 1681363267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_62
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 726
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc4b64f07649a146864a83d23ccf5fc
+      internalID: -1426064666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 720
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce50abd5241ef6747b15b191bfcad9a9
+      internalID: 1500421798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_64
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 721
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8b93fccce74524680feb794a5b6e90
+      internalID: -1907291332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 711
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2e3f15d58061243b699db2c210e37b
+      internalID: -2027302509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_66
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 713
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fa192fda3ad3d4e860e1c8c96ed16f
+      internalID: -723842824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_67
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 690
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022d0fc52fe87c546b1ff7a13aff9d36
+      internalID: 1668178255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_68
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 695
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b660c5595872ca4cb51524f31948f5a
+      internalID: -1746565860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_69
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 702
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48009625a52351a4ea79fdef2f7944d2
+      internalID: -320189782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 678
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ca7da9dfd0cc646920f79f07f15802
+      internalID: -2018762890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_71
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 687
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7160ee7d7c51d14eaf3a1638a064102
+      internalID: -239796127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_72
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 681
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0660d31be12a0248b15fd1c42f4a5ca
+      internalID: 521981208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_73
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 671
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbef542c5f64eb479a78959665aaa77
+      internalID: 980265048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_74
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 672
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929f27c9ed0ca62428e5e31ac8fd6b95
+      internalID: 220529765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_75
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 666
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423fc7f16f6f8fc4d9b09da2c5965a7b
+      internalID: 55688743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 662
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0885dcb11ebc246b1504530a4b46b7
+      internalID: -1481548787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 654
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15549098c6d566a41a4d13a70417886b
+      internalID: -1119026644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_78
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 657
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bdfa59faa07cc40988cb72c9c82324
+      internalID: 2053427980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 647
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eef336955a90140883e3c12eae38c1
+      internalID: 624159371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 639
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d019e9ff208fe1458f8a1ddeb06efa8
+      internalID: -92619267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_81
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 630
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802477f47cc9aa24dabba75e2c3b9f77
+      internalID: 1488634548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_82
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 635
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613f627a593b2b047b936e9294973de9
+      internalID: 12980113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_83
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 614
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec1abd750b0059479cd307182c79da9
+      internalID: 406225130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_84
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 623
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb621549efda264988525aa0423f0a8
+      internalID: -547654997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_85
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 618
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c11d3169c2aeb142ac00bc92700706f
+      internalID: -1815760115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_86
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 607
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5cd47b3bc390f4699f07155621c3fb
+      internalID: -572920294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_87
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 608
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b365968597a505469153013e539e21d
+      internalID: -1453056747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 612
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca6fe750ef549c458184b711415098a
+      internalID: -1109111776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 593
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e1a1d2ebd8cc24f87ed914023604ed
+      internalID: -1907890483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_90
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 601
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88e643755fa3084d890f63904343e38
+      internalID: 216261486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_91
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 593
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b99a00218a13584aa741543f5de7adb
+      internalID: 2039891223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_92
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 574
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d460bca7f67c85d44aa8ac34f2b5b411
+      internalID: 1937188045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_93
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 582
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52956e57b0c215f41950d3c560f988cb
+      internalID: -2135058223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_94
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 576
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b51a2d2a8da9fe49bb2e7e604191bf0
+      internalID: 1049299786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_95
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 568
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf927f2be797f704d88b8a8c26de69e7
+      internalID: -13633758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_96
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 558
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875c62e9652b5184f935a98f06d7533e
+      internalID: 596587957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 552
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298253cb78eefce4095694d368c81b95
+      internalID: 1165539395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_98
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6cc7ce9a10b0d4fb0845596d98f7df
+      internalID: 1467887846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_99
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 544
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0440056e4dc6d5840ad5130ea1b37d1b
+      internalID: -1801918514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_100
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 547
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8d24dcb24c0c44db3c2653050c0645
+      internalID: 559968490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_101
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 533
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2758f9bb0d06be94e99c8e21a11be923
+      internalID: -1009637050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_102
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 526
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a9e22b56f72f64897051647dfd43de
+      internalID: 1016176255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_103
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 520
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9239035231d1e344bd5cd0e40e54718
+      internalID: -1338332223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_104
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 512
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67922cf316643924da88ea558b838bbd
+      internalID: -1945717858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 488
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2255ca610f98e41ba38ad7b04c861d
+      internalID: -1910454863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 62
+        width: 289
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b722424315e0e44a35efeb659a02ef
+      internalID: 1033445813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: key
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 65
+        width: 289
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9a284018630094f8889a54b3202788
+      internalID: 667615583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_108
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 481
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d238f248e175a4e4590bd0e8e89b268a
+      internalID: 796421224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair1
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 88
+        width: 407
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1f4c23118c8b244bad7a5b1e8069ae
+      internalID: -1653553957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_110
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 484
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cc96a8bdda9be4591774e0f7ebdd9a
+      internalID: 602771632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_111
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 478
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8913c216db8eb44a8989dff7ed53cd
+      internalID: 1763077782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_112
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 471
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f3a7800c70d204b83976f87b198b4a
+      internalID: 1512130977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_113
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 463
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e26f125fc465d248a1dfe9bb5c3d290
+      internalID: -662387568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_114
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 467
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8e7f9f67d42a948b3d6c356809ffbb
+      internalID: -1662119287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_115
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 446
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05e0dd43f155f54ea9765bdcc71c9d1
+      internalID: 1954245686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_116
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 457
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f340b848fce0ce47937a7929d1c6e46
+      internalID: -1331941049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_117
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 448
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c48c920bffc9794c806db077c77d92e
+      internalID: -1591202207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_118
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 448
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67da105efa0ab554a8ec3f2ef66a27f2
+      internalID: -179957820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_119
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 431
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1019caeddc3322d4289dc2016f930266
+      internalID: 1788372012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_120
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 436
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30eb83f5bddef448a25f5dfe32aaeb4
+      internalID: -1779090980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 423
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec10310a6175bd8489100a932f217977
+      internalID: 1827477226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_122
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 426
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca425a2222673f9449465aaa6403fc3c
+      internalID: -313616596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_123
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 426
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf56042e89c4e92429088bbf77b6bda7
+      internalID: -957979735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_124
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 412
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2444d78e9ba7bc649983d06d5315df5e
+      internalID: 811080755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_125
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 419
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7c1d90c695aed45b332f9d1da16c62
+      internalID: 1226686642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_126
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 407
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1a3aeb74a275c4a9bdf502537c5786
+      internalID: -1166477195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_127
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 409
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c212011500f59498309244f9dda765
+      internalID: 447371106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_128
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 398
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ab5105b5d44114885e3d71d8ec3617
+      internalID: 902502556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_129
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 401
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d13132e067d2f43a2d5ca4f8dbfe2f
+      internalID: 630154679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_130
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 401
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb277d09cfafb3488c87767e999ed1e
+      internalID: -49174092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_131
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 388
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1280ed93b99b847a6ee2571281eacc
+      internalID: -380405428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_132
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 383
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457f1f45aac8d2440a6eb2ba85744784
+      internalID: -360835738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_133
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 386
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f6b7d56f36c4549bfffd11edd4547c
+      internalID: -1203466226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_134
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 360
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6956db63626cf441a5795482b41cb90
+      internalID: 751995861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_135
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 369
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef00e4c5a17ad64f9b7470ba037fa0e
+      internalID: 147315160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_136
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 353
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec70c7e6afe34bf4c877082e3b61e9a2
+      internalID: 535357411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_137
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 361
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c576896fa83f50e4aa2cd0584848905f
+      internalID: 401046512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_138
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 341
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c87f2fb502567d479dd1e6fe686ba36
+      internalID: -486567210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_139
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 350
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e86c23a028cb34ca97e605d69f7737
+      internalID: 1905381546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_140
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 345
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61806fdd145e3a4486708272e6252ff
+      internalID: 1410388116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_141
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 324
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409c62b70e3510344873b9ed79b50d4e
+      internalID: 1618642391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_142
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 337
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8dfa42e00ced2448bdf11f15e0c83d
+      internalID: -1003101747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_143
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 329
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fce31d59626204fbe8fbb075243f83
+      internalID: 1691281217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_144
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 321
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db640eea92e85045a2f10033715809a
+      internalID: -444160875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_145
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 310
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0723080963ee34ca144240cb0ef667
+      internalID: -1280580676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_146
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 317
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1de1a689da10ce4dbb81242e5377adb
+      internalID: -2011003436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_147
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 313
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f064555e90b77f4daffb09fb6b74bf4
+      internalID: -612276350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_148
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 302
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c823582fb8f834341b486f21686f5ea3
+      internalID: 1765875284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_149
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 297
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089f0ac9acd68364190f8693fe61e52c
+      internalID: 1057842776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_150
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 306
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5aba20d73750742b766201351be591
+      internalID: 203099170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_151
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 296
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfeb8ea93a106e4ca3cd3b5c54314fd
+      internalID: -1259592228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_152
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 292
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bb3675d2c5e6646a19a08cbf9c0356
+      internalID: -1595851348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_153
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 279
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3925733b19a12042aca294ec9984528
+      internalID: -1529345602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_154
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648cf72d957fb69448995084787a764d
+      internalID: 1230142500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_155
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 281
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb858d46384be744883847957bb71a90
+      internalID: 2008095458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_156
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 265
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdca7f910da6b0641a5390d928bd8e09
+      internalID: 1722765624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_157
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 273
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b628c1f1c3615b547923c007f068f06f
+      internalID: -1502705617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_158
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 268
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd312f50f58be9c4095b3dfb728f0e6b
+      internalID: -2074237637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_159
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 265
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9135ec0192d53fe4f84dbafccf2b4653
+      internalID: -1111186005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_160
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 233
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d474ff2ba053454299d4cc500678089
+      internalID: -1192620100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_161
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 257
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556bfef6c5f096844a0c032f4fdccc98
+      internalID: -1034966563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_162
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 246
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db53e588d818b349867527b6c048b9a
+      internalID: 704671211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_163
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 249
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87122c00eff8dbf419b45d30f168eb77
+      internalID: -1606477140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_164
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 239
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cacbaa9da4d0147800b52c9acb536f
+      internalID: 439430170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_165
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 233
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac6d25fc17d0334daef8c184ee0bc0b
+      internalID: -422619809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_166
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 230
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf58f3554386074499cab94a868635c
+      internalID: 1314820578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_167
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 220
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53610390b5990f24781b883f3f147868
+      internalID: -10007854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_168
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 225
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00572dbdd97babb4db3a14d6b6c8f102
+      internalID: 723510687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_169
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 214
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3730f0b7e82f464bb28a5c4e0734a41
+      internalID: -1070286921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_170
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 219
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d04fb4006977664e8d929291b48de01
+      internalID: 65237229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_171
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 208
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6cab43c31be64d9abd11bfe491511
+      internalID: -187354108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_172
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 201
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15c197fccfb60247b92475019232b2e
+      internalID: 990202554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 199
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96b96b83f39fa7409bb7b212e2ffae9
+      internalID: -1307712632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_174
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 194
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c582497d121c32b488ac3951c7d3dc66
+      internalID: -1650504879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_175
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 189
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9acbf9805e890409985396d88c7f52
+      internalID: -1269418618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_176
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 183
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf99a91b661b368459fe642be6e3da39
+      internalID: 577729342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_177
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 175
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d691865f185dc1948a5c6b4485f90ad0
+      internalID: 1384314904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_178
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 175
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a950c2c0bf0927c46a6a295d4d457b90
+      internalID: 1436338115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_179
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 168
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd4b193671caee4b8083b280fadc6c8
+      internalID: 906411421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_180
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61f6dfaf06f1d743abb1b01b48541af
+      internalID: -805229265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_181
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 153
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6670498c92dcf17408565999e3cbef7f
+      internalID: 20996129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_182
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 143
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e4a724766b934429f59e7bebb42e59
+      internalID: 1219427711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_183
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 146
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacc08037bd23b64f8d2d26512d2beab
+      internalID: 1672327412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_184
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 138
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6618bcecc11e51b4a91bf256e9e1bddc
+      internalID: 926654542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_185
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 139
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4525135e2db5fa2448857b7b01a99f7a
+      internalID: 1232063810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_186
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 137
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede35cf735a8be54796d41f745049558
+      internalID: -479759590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_187
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 125
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e399e91cf42bad43ad6166affda93d5
+      internalID: 317309715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_188
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 113
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60575723e119222428ebc0246fd899c0
+      internalID: -1629929828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_189
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 95
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad8b7bd35bdc80499549822efcebc65
+      internalID: -722534264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_190
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96998b60bd073b343b41e494eec8d6ca
+      internalID: -283261137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_191
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 63
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80701d68f89df8d4ab85401f173f85da
+      internalID: 1938456444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_192
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 56
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae16b14e4ba4fd44a6d0910afeb228d
+      internalID: 2018704216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_193
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 49
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018cb896f95aa3e42b18e5f480ac71d4
+      internalID: -1308141579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_194
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5c867dae0b51e4b8df0f8a18144ce7
+      internalID: 1320156253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_195
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 32
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c7e6e5bed3863428723ad0143e6642
+      internalID: -217871536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_196
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 14
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee3b1eefc952f844a80bbc9befca268
+      internalID: -201114398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Photorealistic sci-f energy_197
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf3433ca44f25f48bfa61caaf525da4
+      internalID: -1806470713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7bd6bec3e2cf26c4192f6ec94550f51a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Photorealistic sci-f energy_0: -647621049
+      Photorealistic sci-f energy_1: 295005983
+      Photorealistic sci-f energy_10: -1499206454
+      Photorealistic sci-f energy_100: 559968490
+      Photorealistic sci-f energy_101: -1009637050
+      Photorealistic sci-f energy_102: 1016176255
+      Photorealistic sci-f energy_103: -1338332223
+      Photorealistic sci-f energy_104: -1945717858
+      Photorealistic sci-f energy_105: -1910454863
+      Photorealistic sci-f energy_108: 796421224
+      Photorealistic sci-f energy_11: -1595207504
+      Photorealistic sci-f energy_110: 602771632
+      Photorealistic sci-f energy_111: 1763077782
+      Photorealistic sci-f energy_112: 1512130977
+      Photorealistic sci-f energy_113: -662387568
+      Photorealistic sci-f energy_114: -1662119287
+      Photorealistic sci-f energy_115: 1954245686
+      Photorealistic sci-f energy_116: -1331941049
+      Photorealistic sci-f energy_117: -1591202207
+      Photorealistic sci-f energy_118: -179957820
+      Photorealistic sci-f energy_119: 1788372012
+      Photorealistic sci-f energy_12: 505613732
+      Photorealistic sci-f energy_120: -1779090980
+      Photorealistic sci-f energy_121: 1827477226
+      Photorealistic sci-f energy_122: -313616596
+      Photorealistic sci-f energy_123: -957979735
+      Photorealistic sci-f energy_124: 811080755
+      Photorealistic sci-f energy_125: 1226686642
+      Photorealistic sci-f energy_126: -1166477195
+      Photorealistic sci-f energy_127: 447371106
+      Photorealistic sci-f energy_128: 902502556
+      Photorealistic sci-f energy_129: 630154679
+      Photorealistic sci-f energy_13: -1377020101
+      Photorealistic sci-f energy_130: -49174092
+      Photorealistic sci-f energy_131: -380405428
+      Photorealistic sci-f energy_132: -360835738
+      Photorealistic sci-f energy_133: -1203466226
+      Photorealistic sci-f energy_134: 751995861
+      Photorealistic sci-f energy_135: 147315160
+      Photorealistic sci-f energy_136: 535357411
+      Photorealistic sci-f energy_137: 401046512
+      Photorealistic sci-f energy_138: -486567210
+      Photorealistic sci-f energy_139: 1905381546
+      Photorealistic sci-f energy_14: 1627098323
+      Photorealistic sci-f energy_140: 1410388116
+      Photorealistic sci-f energy_141: 1618642391
+      Photorealistic sci-f energy_142: -1003101747
+      Photorealistic sci-f energy_143: 1691281217
+      Photorealistic sci-f energy_144: -444160875
+      Photorealistic sci-f energy_145: -1280580676
+      Photorealistic sci-f energy_146: -2011003436
+      Photorealistic sci-f energy_147: -612276350
+      Photorealistic sci-f energy_148: 1765875284
+      Photorealistic sci-f energy_149: 1057842776
+      Photorealistic sci-f energy_15: 177795980
+      Photorealistic sci-f energy_150: 203099170
+      Photorealistic sci-f energy_151: -1259592228
+      Photorealistic sci-f energy_152: -1595851348
+      Photorealistic sci-f energy_153: -1529345602
+      Photorealistic sci-f energy_154: 1230142500
+      Photorealistic sci-f energy_155: 2008095458
+      Photorealistic sci-f energy_156: 1722765624
+      Photorealistic sci-f energy_157: -1502705617
+      Photorealistic sci-f energy_158: -2074237637
+      Photorealistic sci-f energy_159: -1111186005
+      Photorealistic sci-f energy_16: -247526565
+      Photorealistic sci-f energy_160: -1192620100
+      Photorealistic sci-f energy_161: -1034966563
+      Photorealistic sci-f energy_162: 704671211
+      Photorealistic sci-f energy_163: -1606477140
+      Photorealistic sci-f energy_164: 439430170
+      Photorealistic sci-f energy_165: -422619809
+      Photorealistic sci-f energy_166: 1314820578
+      Photorealistic sci-f energy_167: -10007854
+      Photorealistic sci-f energy_168: 723510687
+      Photorealistic sci-f energy_169: -1070286921
+      Photorealistic sci-f energy_17: -289222022
+      Photorealistic sci-f energy_170: 65237229
+      Photorealistic sci-f energy_171: -187354108
+      Photorealistic sci-f energy_172: 990202554
+      Photorealistic sci-f energy_173: -1307712632
+      Photorealistic sci-f energy_174: -1650504879
+      Photorealistic sci-f energy_175: -1269418618
+      Photorealistic sci-f energy_176: 577729342
+      Photorealistic sci-f energy_177: 1384314904
+      Photorealistic sci-f energy_178: 1436338115
+      Photorealistic sci-f energy_179: 906411421
+      Photorealistic sci-f energy_18: -1422816708
+      Photorealistic sci-f energy_180: -805229265
+      Photorealistic sci-f energy_181: 20996129
+      Photorealistic sci-f energy_182: 1219427711
+      Photorealistic sci-f energy_183: 1672327412
+      Photorealistic sci-f energy_184: 926654542
+      Photorealistic sci-f energy_185: 1232063810
+      Photorealistic sci-f energy_186: -479759590
+      Photorealistic sci-f energy_187: 317309715
+      Photorealistic sci-f energy_188: -1629929828
+      Photorealistic sci-f energy_189: -722534264
+      Photorealistic sci-f energy_19: -586609888
+      Photorealistic sci-f energy_190: -283261137
+      Photorealistic sci-f energy_191: 1938456444
+      Photorealistic sci-f energy_192: 2018704216
+      Photorealistic sci-f energy_193: -1308141579
+      Photorealistic sci-f energy_194: 1320156253
+      Photorealistic sci-f energy_195: -217871536
+      Photorealistic sci-f energy_196: -201114398
+      Photorealistic sci-f energy_197: -1806470713
+      Photorealistic sci-f energy_20: 1699544407
+      Photorealistic sci-f energy_21: -1554168383
+      Photorealistic sci-f energy_22: -1303897863
+      Photorealistic sci-f energy_23: 95258993
+      Photorealistic sci-f energy_24: -2143668112
+      Photorealistic sci-f energy_25: -560138810
+      Photorealistic sci-f energy_26: 1583334066
+      Photorealistic sci-f energy_27: 248411278
+      Photorealistic sci-f energy_28: -1300614103
+      Photorealistic sci-f energy_29: -1702955842
+      Photorealistic sci-f energy_3: -125498332
+      Photorealistic sci-f energy_30: 325868566
+      Photorealistic sci-f energy_31: 1747700369
+      Photorealistic sci-f energy_32: 1644096091
+      Photorealistic sci-f energy_33: 1728288865
+      Photorealistic sci-f energy_34: -1118983278
+      Photorealistic sci-f energy_35: -240075744
+      Photorealistic sci-f energy_36: 1925494034
+      Photorealistic sci-f energy_37: -1609498228
+      Photorealistic sci-f energy_38: -651579448
+      Photorealistic sci-f energy_39: -832538751
+      Photorealistic sci-f energy_4: 100673522
+      Photorealistic sci-f energy_40: -1045938769
+      Photorealistic sci-f energy_41: 870093302
+      Photorealistic sci-f energy_42: 94912903
+      Photorealistic sci-f energy_43: 1778988017
+      Photorealistic sci-f energy_44: -1680950151
+      Photorealistic sci-f energy_45: -1701667710
+      Photorealistic sci-f energy_46: 752830112
+      Photorealistic sci-f energy_47: 1571314444
+      Photorealistic sci-f energy_48: -533870074
+      Photorealistic sci-f energy_49: -1722307988
+      Photorealistic sci-f energy_50: 538822402
+      Photorealistic sci-f energy_51: -175008829
+      Photorealistic sci-f energy_52: 1181060017
+      Photorealistic sci-f energy_53: 20195005
+      Photorealistic sci-f energy_54: -603540392
+      Photorealistic sci-f energy_55: 286786517
+      Photorealistic sci-f energy_56: 46954482
+      Photorealistic sci-f energy_57: 416151375
+      Photorealistic sci-f energy_58: 147412081
+      Photorealistic sci-f energy_59: 1826128279
+      Photorealistic sci-f energy_6: 168824285
+      Photorealistic sci-f energy_60: 1444021395
+      Photorealistic sci-f energy_61: 1681363267
+      Photorealistic sci-f energy_62: -1426064666
+      Photorealistic sci-f energy_63: 1500421798
+      Photorealistic sci-f energy_64: -1907291332
+      Photorealistic sci-f energy_65: -2027302509
+      Photorealistic sci-f energy_66: -723842824
+      Photorealistic sci-f energy_67: 1668178255
+      Photorealistic sci-f energy_68: -1746565860
+      Photorealistic sci-f energy_69: -320189782
+      Photorealistic sci-f energy_7: -1137593906
+      Photorealistic sci-f energy_70: -2018762890
+      Photorealistic sci-f energy_71: -239796127
+      Photorealistic sci-f energy_72: 521981208
+      Photorealistic sci-f energy_73: 980265048
+      Photorealistic sci-f energy_74: 220529765
+      Photorealistic sci-f energy_75: 55688743
+      Photorealistic sci-f energy_76: -1481548787
+      Photorealistic sci-f energy_77: -1119026644
+      Photorealistic sci-f energy_78: 2053427980
+      Photorealistic sci-f energy_79: 624159371
+      Photorealistic sci-f energy_8: 753365475
+      Photorealistic sci-f energy_80: -92619267
+      Photorealistic sci-f energy_81: 1488634548
+      Photorealistic sci-f energy_82: 12980113
+      Photorealistic sci-f energy_83: 406225130
+      Photorealistic sci-f energy_84: -547654997
+      Photorealistic sci-f energy_85: -1815760115
+      Photorealistic sci-f energy_86: -572920294
+      Photorealistic sci-f energy_87: -1453056747
+      Photorealistic sci-f energy_88: -1109111776
+      Photorealistic sci-f energy_89: -1907890483
+      Photorealistic sci-f energy_9: -1632053982
+      Photorealistic sci-f energy_90: 216261486
+      Photorealistic sci-f energy_91: 2039891223
+      Photorealistic sci-f energy_92: 1937188045
+      Photorealistic sci-f energy_93: -2135058223
+      Photorealistic sci-f energy_94: 1049299786
+      Photorealistic sci-f energy_95: -13633758
+      Photorealistic sci-f energy_96: 596587957
+      Photorealistic sci-f energy_97: 1165539395
+      Photorealistic sci-f energy_98: 1467887846
+      Photorealistic sci-f energy_99: -1801918514
+      crosshair1: -1653553957
+      energy: 1033445813
+      key: 667615583
+      reload: 903853702
+      restart: -986603619
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
