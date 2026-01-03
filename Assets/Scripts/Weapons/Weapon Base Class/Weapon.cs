@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using TMPro;
 
 public abstract class Weapon : MonoBehaviour
 {
@@ -39,6 +41,10 @@ public abstract class Weapon : MonoBehaviour
     [SerializeField] protected ParticleSystem muzzleFlash;
     [SerializeField] protected GameObject impactEffect;
 
+    [Header("UI")]
+    [SerializeField] protected TextMeshProUGUI ammoDisplay;
+    [SerializeField] protected TextMeshProUGUI magazineDisplay;
+
     protected int currentMagazine;
     protected int currentAmmo;
     protected float nextFireTime;
@@ -56,6 +62,12 @@ public abstract class Weapon : MonoBehaviour
         currentMagazine = magazineCapacity;
         currentAmmo = 0;
 
+    }
+
+    protected virtual void Update()
+    {
+        ammoDisplay.text = currentMagazine.ToString();
+        magazineDisplay.text = currentAmmo.ToString();
     }
 
     public Sprite GetIcon() => weaponIcon;

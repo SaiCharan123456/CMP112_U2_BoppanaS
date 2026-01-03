@@ -14,10 +14,11 @@ public class PlayerWeaponController : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private List<WeaponSlotUI> uiSlots; // Assign 4 UI slots
+    [SerializeField] private List<WeaponSlotUI> uiShootingSlots;
 
     [Header("Weapons in hands")]
     [SerializeField] private List<Weapon> guns = new List<Weapon>();
-    [SerializeField] private Grenade grenade;
+    [SerializeField] private List<Grenade> grenades = new List<Grenade>();
 
     [Header("Drop Settings")]
     [SerializeField] private float dropForwardForce = 6f;
@@ -44,11 +45,12 @@ public class PlayerWeaponController : MonoBehaviour
         }
 
         // Setup grenade
-        if (grenade != null)
+        foreach (var grenade in grenades)
         {
             grenade.Initialize(cameraTransform, animator, grenadeThrowPoint);
             grenade.gameObject.SetActive(false);
         }
+
     }
 
 
@@ -71,6 +73,7 @@ public class PlayerWeaponController : MonoBehaviour
             SetWeaponActive(currentWeapon, false, 0);
             currentWeapon = null;
             currentSlotIndex = -1;
+            GameManager.Instance.NormalMode();
         }
         else
         {
@@ -82,6 +85,7 @@ public class PlayerWeaponController : MonoBehaviour
             currentWeapon = selected;
             currentSlotIndex = slotIndex;
             SetWeaponActive(currentWeapon, true, 1);
+            GameManager.Instance.ShootingMode();
         }
 
         // Update UI
@@ -108,7 +112,13 @@ public class PlayerWeaponController : MonoBehaviour
         for (int i = 0; i < uiSlots.Count; i++)
         {
             uiSlots[i].SetSelected(i == currentSlotIndex);
+            uiShootingSlots[i].SetSelected(i == currentSlotIndex);
         }
+    }
+
+    public void UiReload()
+    {
+               if (currentWeapon is Weapon gun) gun.TryReload();
     }
 
 
@@ -136,6 +146,7 @@ public class PlayerWeaponController : MonoBehaviour
         Debug.Log("Drop weapon input received");
 
         DropCurrentWeapon();
+        GameManager.Instance.NormalMode();
     }
 
     public void OnSlot1(InputValue value)
@@ -184,6 +195,7 @@ public class PlayerWeaponController : MonoBehaviour
         if (uiSlots.Count > slotIndex)
         {
             uiSlots[slotIndex].Clear();
+            uiShootingSlots[slotIndex].Clear();
         }
              
 
@@ -309,9 +321,16 @@ public class PlayerWeaponController : MonoBehaviour
                 if (uiSlots.Count > i)
                 {
                     if (weapon is Weapon gun)
+                    {
+                        uiShootingSlots[i].SetIcon(gun.GetIcon());
                         uiSlots[i].SetIcon(gun.GetIcon());
+                    }                        
                     else if (weapon is Grenade gren)
+                    {
+                        uiShootingSlots[i].SetIcon(gren.GetIcon());
                         uiSlots[i].SetIcon(gren.GetIcon());
+                    }
+                        
                 }
 
                 return true;
@@ -366,10 +385,16 @@ public class PlayerWeaponController : MonoBehaviour
 
         // Clear UI
         if (uiSlots.Count > index)
+        {
             uiSlots[index].Clear();
+            uiShootingSlots[index].Clear();
+        }
+            
 
         // Disable in hands
         throwable.gameObject.SetActive(false);
+
+        GameManager.Instance.NormalMode();
 
         Debug.Log($"{throwable.name} depleted and removed");
     }

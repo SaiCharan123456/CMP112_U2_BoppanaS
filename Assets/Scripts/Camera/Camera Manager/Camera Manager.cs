@@ -66,6 +66,12 @@ public class CameraManager : MonoBehaviour
         thirdPersonAimVcam.gameObject.SetActive(true);
     }
 
+    public void SetFollowTarget(Transform target)
+    {
+        thirdPersonVcam.Follow = target;
+        //thirdPersonVcam.LookAt = target;
+    }
+
     public CameraMode GetCurrentMode()
     {
         return currentMode;

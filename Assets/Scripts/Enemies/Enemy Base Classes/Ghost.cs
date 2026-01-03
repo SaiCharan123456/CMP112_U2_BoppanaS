@@ -27,6 +27,14 @@ public abstract class Ghost : Enemy
     [SerializeField] protected AudioClip deathClip;
     [SerializeField] protected AudioClip idleClip;
 
+    [Header("Stats")]
+    [SerializeField] protected float maxHealth = 50f;
+
+    [Header("Attack Area")]
+    [SerializeField] protected Camera attackRaycastArea;
+
+    protected float currentHealth;
+
     protected float lastAttackTime;
     protected Vector3 startPos;
     protected float hoverOffset;
@@ -179,8 +187,13 @@ public abstract class Ghost : Enemy
     {
         if (isDead) return;
 
-        animator.SetTrigger("Damage");
+        currentHealth -= amount;
+
+        animator?.SetTrigger("Damage");
         PlaySound(damageClip);
+
+        if (currentHealth <= 0f)
+            Die();
     }
 
     protected virtual void Die()

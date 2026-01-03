@@ -6,6 +6,9 @@ public class ZombieSpawnArea : Spawner
     [Header("Zombie Prefabs")]
     [SerializeField] private GameObject[] zombiePrefabs;
 
+    [Header("Zombie Parent")]
+    [SerializeField] private Transform zombieParent;
+
     [Header("Spawn Area")]
     [SerializeField] private Vector3 areaSize = new Vector3(10f, 0f, 10f);
     [SerializeField] private bool drawGizmos = true;
@@ -71,7 +74,7 @@ public class ZombieSpawnArea : Spawner
         GameObject prefab =
             zombiePrefabs[Random.Range(0, zombiePrefabs.Length)];
 
-        GameObject zombie = Instantiate(prefab, pos, Quaternion.identity);
+        GameObject zombie = Instantiate(prefab, pos, Quaternion.identity, zombieParent);
 
         // Register to THIS area
         ZombieAreaTracker tracker = zombie.AddComponent<ZombieAreaTracker>();

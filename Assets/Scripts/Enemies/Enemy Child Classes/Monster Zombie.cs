@@ -49,11 +49,12 @@ public class MonsterZombie : Zombie
             RaycastHit hitInfo;
             if (Physics.Raycast(AttackingRaycastArea.transform.position, AttackingRaycastArea.transform.forward, out hitInfo, attackRange))
             {
-                //if (hitInfo.collider.CompareTag("Player"))
-                //{
-                //    Debug.Log($"Player hit for {damage} damage!");
-                //    
-                //}
+                if (hitInfo.collider.CompareTag("Player"))
+                {
+                    Debug.Log($"Player hit for {damage} damage!");
+
+                    PlayerManager.Instance.DecreaseHealth(damage);
+                }
 
                 if (bulletPrefab != null)
                 {

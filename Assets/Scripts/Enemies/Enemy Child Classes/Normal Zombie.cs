@@ -98,11 +98,12 @@ public class NormalZombie : Zombie
             RaycastHit hitInfo;
             if (Physics.Raycast(AttackingRaycastArea.transform.position, AttackingRaycastArea.transform.forward, out hitInfo, attackRange))
             {
-                //if (hitInfo.collider.CompareTag("Player"))
-                //{
-                //    Debug.Log($"Player hit for {damage} damage!");
-                //    // Here you would call the player's TakeDamage method
-                //}
+                if (hitInfo.collider.CompareTag("Player"))
+                {
+                    Debug.Log($"Player hit for {damage} damage!");
+
+                    PlayerManager.Instance.DecreaseHealth(damage);
+                }
 
                 Debug.Log($"Hit {hitInfo.transform.name} for {damage} damage!");
             }

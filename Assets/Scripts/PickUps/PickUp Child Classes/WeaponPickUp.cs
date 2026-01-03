@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UIElements;
 using System.Collections;
 
 public class WeaponPickUp : PickUp {
@@ -10,8 +9,8 @@ public class WeaponPickUp : PickUp {
 
     protected override void Awake()
     {
-        WaitAfterSpawning();
-        base.Awake();
+        StartCoroutine(WaitAfterSpawning());
+
         // Get the collider to control trigger state
         weaponCollider = GetComponent<Collider>();
     }
@@ -19,6 +18,14 @@ public class WeaponPickUp : PickUp {
     private IEnumerator WaitAfterSpawning()
     {
         yield return new WaitForSeconds(2);
+        GetComponent<Collider>().isTrigger = true;
+        GetComponent<Rigidbody>().isKinematic = true;
+        GetComponent<Rigidbody>().useGravity = false;
+        
+        // Ensure the weapon is slightly above ground
+        var pos = transform.position;
+        pos.y = 0.5f;
+        transform.position = pos;
     }
 
 

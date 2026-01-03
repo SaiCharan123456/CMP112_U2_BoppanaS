@@ -8,7 +8,7 @@ public abstract class PickUp : MonoBehaviour {
 
     protected virtual void Awake() {
 
-        WaitAfterSpawning();
+        StartCoroutine(WaitAfterSpawning());
         // Ensure trigger
         GetComponent<Collider>().isTrigger = true;
         GetComponent<Rigidbody>().isKinematic = true;

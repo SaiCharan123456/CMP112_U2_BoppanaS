@@ -10,6 +10,12 @@ public class BasicGhost : Ghost
     private float lastHeardTime;
     private bool heardSound;
 
+    protected void Awake()
+    {
+        maxHealth = 50f;
+        damage = 5f;
+    }
+
     protected override void Start()
     {
         moveSpeed = 1.5f; // slow
@@ -90,8 +96,17 @@ public class BasicGhost : Ghost
     // ========================= ATTACK =========================
     protected override void OnGhostAttack()
     {
-        // Damage handled by animation event or overlap
-        Debug.Log($"{name} attacks with claws!");
+        RaycastHit hitInfo;
+        if (Physics.Raycast(attackRaycastArea.transform.position, attackRaycastArea.transform.forward, out hitInfo, attackRange))
+        {
+
+            if (hitInfo.collider.CompareTag("Player"))
+            {
+                Debug.Log($"Player hit for {damage} damage!");
+
+                PlayerManager.Instance.DecreaseHealth(damage);
+            }
+        }
     }
 
     // ========================= SOUND DETECTION =========================

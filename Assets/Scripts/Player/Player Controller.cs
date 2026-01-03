@@ -43,9 +43,13 @@ public class PlayerController : MonoBehaviour
         {
             movement = TPSCameraTransform.transform.TransformDirection(movement);
         }
-        if (FPSCamera.activeSelf)
+
+        if (FPSCamera != null)
         {
-            movement = FPSCameraTransform.transform.TransformDirection(movement);
+            if (FPSCamera.activeSelf)
+            {
+                movement = FPSCameraTransform.transform.TransformDirection(movement);
+            }
         }
             
         

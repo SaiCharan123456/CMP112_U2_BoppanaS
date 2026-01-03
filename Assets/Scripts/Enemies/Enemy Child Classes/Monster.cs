@@ -166,6 +166,14 @@ public class Monster : Enemy
             RaycastHit hitInfo;
             if (Physics.Raycast(attackRaycastArea.transform.position, attackRaycastArea.transform.forward, out hitInfo, attackRange))
             {
+
+                if (hitInfo.collider.CompareTag("Player"))
+                {
+                    Debug.Log($"Player hit for {damage} damage!");
+
+                    PlayerManager.Instance.DecreaseHealth(damage);
+                }
+
                 Debug.Log($"Monster hit {hitInfo.transform.name} for {damage} damage!");
             }
             alreadyAttacked = true;
@@ -292,12 +300,26 @@ public class Monster : Enemy
             PlaySound(attackClip);
             Invoke(nameof(EndSpecial2), 3.7f);
         }
-        
-        
-   
+
+        RaycastHit hitInfo;
+        if (Physics.Raycast(attackRaycastArea.transform.position, attackRaycastArea.transform.forward, out hitInfo, attackRange))
+        {
+
+            if (hitInfo.collider.CompareTag("Player"))
+            {
+                Debug.Log($"Player hit for {damage} damage!");
+
+                PlayerManager.Instance.DecreaseHealth(damage);
+            }
+
+            Debug.Log($"Monster hit {hitInfo.transform.name} for {damage} damage!");
+        }
+
+
+
     }
 
-    //
+
     private void EndSpecial2()
     {
         agent.isStopped = false;

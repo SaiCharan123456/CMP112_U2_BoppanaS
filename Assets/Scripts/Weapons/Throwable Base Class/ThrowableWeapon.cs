@@ -1,5 +1,7 @@
 using UnityEngine;
 using System;
+using UnityEngine.UI;
+using TMPro;
 
 public abstract class ThrowableWeapon : MonoBehaviour
 {
@@ -15,6 +17,11 @@ public abstract class ThrowableWeapon : MonoBehaviour
     protected Animator animator;
     protected Transform cameraTransform;
     [SerializeField] private GameObject pickupPrefab;
+
+    [Header("UI")]
+    [SerializeField] protected TextMeshProUGUI max;
+    [SerializeField] protected TextMeshProUGUI current;
+
 
     // Event triggered when the throwable weapon is depleted
     public Action<ThrowableWeapon> OnDepleted;
@@ -36,7 +43,12 @@ public abstract class ThrowableWeapon : MonoBehaviour
 
     public GameObject GetPickupPrefab() => pickupPrefab;
 
- 
+    protected void Update()
+    {
+        max.text = maxCount.ToString();
+        current.text = 1.ToString();
+    }
+
     public virtual void TryUse()
     {
         if (currentCount > 0)

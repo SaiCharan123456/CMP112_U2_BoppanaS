@@ -5,6 +5,9 @@ public class GhostSpawner : Spawner
     [Header("Ghost Spawn Areas")]
     [SerializeField] private GhostSpawnArea[] ghostAreas;
 
+    [Header("Ghost Parent")]
+    [SerializeField] private Transform ghostParent;
+
     [Header("Player Reference")]
     [SerializeField] private Transform playerTransform;
 
@@ -28,6 +31,7 @@ public class GhostSpawner : Spawner
 
                 // Spawn the ghost
                 GameObject ghost = Instantiate(area.ghostPrefab, randomPos, Quaternion.identity);
+                ghost.transform.SetParent(ghostParent,true);
 
                 // Initialize the ghost with player reference
                 if (ghost.TryGetComponent(out Ghost ghostComp))
@@ -45,7 +49,7 @@ public class GhostSpawner : Spawner
         Vector3 size = box.size;
 
         float x = Random.Range(center.x - size.x / 2f, center.x + size.x / 2f);
-        float y = center.y; // Keep Y same as center, or adjust if needed
+        float y = 1.5f; // Keep Y same as center, or adjust if needed
         float z = Random.Range(center.z - size.z / 2f, center.z + size.z / 2f);
 
         return new Vector3(x, y, z);

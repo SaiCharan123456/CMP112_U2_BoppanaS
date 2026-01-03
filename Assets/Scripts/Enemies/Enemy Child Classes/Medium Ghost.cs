@@ -23,6 +23,13 @@ public class MediumGhost : Ghost
     private bool heardSound;
     private float revealTimer;
 
+
+    protected void Awake()
+    {
+        maxHealth = 100f;
+        damage = 25f;
+    }
+
     protected override void Start()
     {
         base.Start();
@@ -177,9 +184,16 @@ public class MediumGhost : Ghost
         // Damage player 
         if (Vector3.Distance(transform.position, player.position) <= attackRange)
         {
-            if (player.TryGetComponent(out PlayerController pc))
+            RaycastHit hitInfo;
+            if (Physics.Raycast(attackRaycastArea.transform.position, attackRaycastArea.transform.forward, out hitInfo, attackRange))
             {
-                //pc.TakeDamage(damage);
+
+                if (hitInfo.collider.CompareTag("Player"))
+                {
+                    Debug.Log($"Player hit for {damage} damage!");
+
+                    PlayerManager.Instance.DecreaseHealth(damage);
+                }
             }
         }
     }

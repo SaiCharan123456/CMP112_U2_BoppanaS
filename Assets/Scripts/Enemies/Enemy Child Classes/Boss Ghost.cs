@@ -28,6 +28,12 @@ public class BossGhost : Ghost
     private bool isPhasing;
 
 
+    protected void Awake()
+    {
+        maxHealth = 150f;
+        damage = 50f;
+    }
+
     protected override void Start()
     {
         moveSpeed *= 1.5f; // Boss is faster
@@ -302,7 +308,17 @@ public class BossGhost : Ghost
 
     protected override void OnGhostAttack()
     {
+        RaycastHit hitInfo;
+        if (Physics.Raycast(attackRaycastArea.transform.position, attackRaycastArea.transform.forward, out hitInfo, attackRange))
+        {
 
-        Debug.Log("Boss Ghost attacks the player!");
+            if (hitInfo.collider.CompareTag("Player"))
+            {
+                Debug.Log($"Player hit for {damage} damage!");
+
+                PlayerManager.Instance.DecreaseHealth(damage);
+            }
+        }
+        ;
     }
 }

@@ -6,6 +6,8 @@ public class BossAlien : Enemy
     [Header("Stats")]
     [SerializeField] float maxHealth = 200f;
     [SerializeField] float damage = 30f;
+    [SerializeField] float lowHpDamage = 40f;
+    [SerializeField] float SpecialDamage = 50f;
     [SerializeField] float lowHpThreshold = 0.3f;
     private float currentHealth;
 
@@ -35,7 +37,7 @@ public class BossAlien : Enemy
     private bool isFlying;
     private Vector3 lastPlayerPosition;
 
-    
+
 
     [Header("Animator & Audio")]
     [SerializeField] Animator animator;
@@ -52,7 +54,7 @@ public class BossAlien : Enemy
     private float stuckTimer;
 
     private Rigidbody rb;
-  
+
 
     protected override void Start()
     {
@@ -87,7 +89,7 @@ public class BossAlien : Enemy
         HandleStuckRecovery();
     }
 
-    
+
     private void HandleStuckRecovery()
     {
         if (currentState != EnemyState.Chase) return;
@@ -168,7 +170,7 @@ public class BossAlien : Enemy
         }
 
         // Low HP attack
-        if (currentHealth / maxHealth <= lowHpThreshold && distance <= attackRange)
+        if (PlayerManager.Instance.GetHealth() / maxHealth <= lowHpThreshold && distance <= attackRange)
         {
             currentState = EnemyState.LowHpAttack;
             return;
@@ -260,6 +262,20 @@ public class BossAlien : Enemy
         agent.isStopped = true;
         RotateTowards(player.position);
 
+        RaycastHit hitInfo;
+        if (Physics.Raycast(attackRaycastArea.transform.position, attackRaycastArea.transform.forward, out hitInfo, attackRange))
+        {
+
+            if (hitInfo.collider.CompareTag("Player"))
+            {
+                Debug.Log($"Player hit for {damage} damage!");
+
+                PlayerManager.Instance.DecreaseHealth(damage);
+            }
+
+            Debug.Log($"Boss Alien hit {hitInfo.transform.name} for {damage} damage!");
+        }
+
 
         // Randomly choose one of four attack animations
         int attackType = Random.Range(0, 4);
@@ -299,9 +315,25 @@ public class BossAlien : Enemy
         agent.isStopped = true;
         RotateTowards(player.position);
 
+        RaycastHit hitInfo;
+        if (Physics.Raycast(attackRaycastArea.transform.position, attackRaycastArea.transform.forward, out hitInfo, attackRange))
+        {
+
+            if (hitInfo.collider.CompareTag("Player"))
+            {
+                Debug.Log($"Player hit for {lowHpDamage} damage!");
+
+                PlayerManager.Instance.DecreaseHealth(lowHpDamage);
+            }
+
+            Debug.Log($"Boss Alien hit {hitInfo.transform.name} for {lowHpDamage} damage!");
+        }
+
+
         int attackType = Random.Range(0, 3);
 
-        if (attackType == 0) {
+        if (attackType == 0)
+        {
             animator.SetTrigger("HpAttack 1");
             Debug.Log($"{name} uses Low HP Attack 1!");
         }
@@ -448,7 +480,7 @@ public class BossAlien : Enemy
         Vector3 behindPlayer = player.position - player.forward * teleportDistanceBehindPlayer;
         transform.position = behindPlayer;
         RotateTowards(player.position);
-       
+
         PlaySound(specialClip);
 
         Debug.Log($"{name} teleports behind the player!");
@@ -502,6 +534,7 @@ public class BossAlien : Enemy
         {
             Vector3 pushDir = (player.position - transform.position).normalized;
             playerMove.ApplyKnockback(pushDir, 15f); // force value
+            PlayerManager.Instance.DecreaseHealth(SpecialDamage);
         }
 
         // Boss moves backward slightly
