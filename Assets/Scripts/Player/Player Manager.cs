@@ -79,6 +79,9 @@ public class PlayerManager : MonoBehaviour
     {
                // Handle player death (e.g., respawn, game over screen, etc.)
         Debug.Log("Player has died.");
+        GameManager.Instance.GameOver();
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void SwitchToNormalPlayer()

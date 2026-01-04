@@ -210,7 +210,7 @@ MonoBehaviour:
   radius: 5
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   explosionEffect: {fileID: 0}
 --- !u!1 &6172428481914457066
 GameObject:

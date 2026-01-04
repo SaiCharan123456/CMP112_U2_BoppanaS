@@ -28,6 +28,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject zombieParent;
     [SerializeField] private GameObject ghostParent;
 
+    [Header("Boss Enemy")]
+    [SerializeField] private GameObject bossEnemy;
+    [SerializeField] private GameObject bossEnemy1;
+    [SerializeField] private GameObject bossEnemy2;
+
+
     [Header("Game Settings")]
     public static int masterKey = 0;
     public static int energyCells = 0;
@@ -35,6 +41,7 @@ public class GameManager : MonoBehaviour
     private bool isGameOver = false;
     private bool isInNormalMode = false;
     private bool isInShootingMode = false;
+    public static bool isEndDoor = false;
 
     [Header("Ghost Mode Settings")]
     private float ghostModeDuration = 60f;
@@ -127,6 +134,8 @@ public class GameManager : MonoBehaviour
         normalMode.SetActive(false);
         ghostMode.SetActive(false);
         shootingMode.SetActive(false);
+        pauseMode.SetActive(false);
+        Time.timeScale = 0f; // Freeze game time
     }
 
     public void WinGame()
@@ -135,6 +144,8 @@ public class GameManager : MonoBehaviour
         normalMode.SetActive(false);
         ghostMode.SetActive(false);
         shootingMode.SetActive(false);
+        pauseMode.SetActive(false);
+        Time.timeScale = 0f; // Freeze game time
     }
 
     public void OnPause(InputValue value)
@@ -223,6 +234,16 @@ public class GameManager : MonoBehaviour
         NormalMode();
     }
 
+    public void OnInteract(InputValue value)
+    {
+        if (value.isPressed && energyCells == 0 && masterKey == 1 && isEndDoor)
+        {
+            Debug.Log("Interact input received in GameManager");
+            WinGame();
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+    }
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

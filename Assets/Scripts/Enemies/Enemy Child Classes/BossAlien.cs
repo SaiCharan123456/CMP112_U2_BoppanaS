@@ -1,5 +1,8 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.InputSystem;
+using static UnityEngine.Rendering.DebugUI;
 
 public class BossAlien : Enemy
 {
@@ -37,7 +40,7 @@ public class BossAlien : Enemy
     private bool isFlying;
     private Vector3 lastPlayerPosition;
 
-
+    public bool isDead = false;
 
     [Header("Animator & Audio")]
     [SerializeField] Animator animator;
@@ -567,7 +570,45 @@ public class BossAlien : Enemy
         animator.SetTrigger("Dead");
         PlaySound(deathClip);
         agent.isStopped = true;
-        Destroy(gameObject, 4f);
+        isDead = true;
+        StartCoroutine(Rebirth());
+
+    }
+
+    public void ActualDead()
+    {
+        if (isDead && GameManager.energyCells > 0)
+        {
+            Debug.Log("Boss Alien reborn using an energy cell!");
+            StopAllCoroutines();
+            GameManager.energyCells -= 1;
+            Destroy(gameObject);
+        }
+    }
+
+    public void OnInteract(InputValue value)
+    {
+        if (!value.isPressed) Debug.Log("button not pressed");
+        Debug.Log("Interact input received in BossAlien");
+        if (value.isPressed && isDead && GameManager.energyCells > 0)
+        {
+            Debug.Log("Boss Alien reborn using an energy cell!");
+            StopAllCoroutines();
+            GameManager.energyCells -= 1;
+            Destroy(gameObject);
+        }
+    }
+
+    IEnumerator Rebirth()
+    {
+        yield return new WaitForSeconds(60f);
+        currentHealth = maxHealth;
+        //animator.SetTrigger("Rebirth");
+        isUsingSpecial = false;
+        isDead = false;
+        RecoverAgent();
+        currentState = EnemyState.Chase;
+        ChasePlayer();
     }
 
     protected void PlaySound(AudioClip clip)
