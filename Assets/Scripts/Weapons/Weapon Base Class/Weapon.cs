@@ -36,6 +36,7 @@ public abstract class Weapon : MonoBehaviour
     [Header("Audio")]
     [SerializeField] protected AudioSource audioSource;
     [SerializeField] protected AudioClip shootClip;
+    [SerializeField] protected AudioClip reloadClip;
 
     [Header("Effects")]
     [SerializeField] protected ParticleSystem muzzleFlash;
@@ -129,6 +130,7 @@ public abstract class Weapon : MonoBehaviour
         if (audioSource != null && shootClip != null)
         {
             audioSource.PlayOneShot(shootClip);
+            Enemy.HearSound(firePoint.position);
         }
 
         Debug.Log("Shooting...");
@@ -175,6 +177,11 @@ public abstract class Weapon : MonoBehaviour
     {
         isReloading = true;
         Debug.Log("Reloading...");
+
+        if (audioSource != null && reloadClip != null)
+        {
+            audioSource.PlayOneShot(reloadClip);
+        }
 
         int ammoToReload = Mathf.Min(magazineCapacity - currentMagazine, currentAmmo);
 

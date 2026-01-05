@@ -30,6 +30,18 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     // Sound memory
     protected List<Vector3> activeSounds = new List<Vector3>();
 
+     public static List<Enemy> AllEnemies = new List<Enemy>();
+
+    protected virtual void OnEnable()
+    {
+        AllEnemies.Add(this);
+    }
+
+    protected virtual void OnDisable()
+    {
+        AllEnemies.Remove(this);
+    }
+
     protected virtual void Start()
     {
         currentState = EnemyState.Idle;
@@ -78,8 +90,16 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         }
     }
 
+    public static void HearSound(Vector3 soundPos)
+    {
+        foreach (Enemy enemy in AllEnemies)
+        {
+            enemy.HearSoundInstance(soundPos);
+        }
+    }
+
     // ===================== SOUND =====================
-    public virtual void HearSound(Vector3 soundPos)
+    public virtual void HearSoundInstance(Vector3 soundPos)
     {
         if (Vector3.Distance(transform.position, soundPos) > hearingRange)
             return;

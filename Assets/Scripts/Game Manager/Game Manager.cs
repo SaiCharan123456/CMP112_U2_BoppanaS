@@ -51,6 +51,10 @@ public class GameManager : MonoBehaviour
     public static bool isInGhostMode = false;
     public static bool hasGhostGun = false;
 
+    [Header("Audio Settings")]
+    [SerializeField] private AudioListener audioListener1;
+    [SerializeField] private AudioListener audioListener2;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -136,6 +140,7 @@ public class GameManager : MonoBehaviour
         shootingMode.SetActive(false);
         pauseMode.SetActive(false);
         Time.timeScale = 0f; // Freeze game time
+        StopSound();
     }
 
     public void WinGame()
@@ -146,6 +151,13 @@ public class GameManager : MonoBehaviour
         shootingMode.SetActive(false);
         pauseMode.SetActive(false);
         Time.timeScale = 0f; // Freeze game time
+        StopSound();
+    }
+
+    public void StopSound()
+    {
+       audioListener1.enabled = false;
+       audioListener2.enabled = false;
     }
 
     public void OnPause(InputValue value)
@@ -205,12 +217,15 @@ public class GameManager : MonoBehaviour
         normalMode.SetActive(false);
         ghostMode.SetActive(false);
         shootingMode.SetActive(false);
+        StopSound();
         Time.timeScale = 0f; // Freeze game time
     }
 
     public void ResumeGame()
     {
         isPaused = false;
+        audioListener1.enabled = true;
+        audioListener2.enabled = true;
         pauseMode.SetActive(false);
         if (isInGhostMode)
         {

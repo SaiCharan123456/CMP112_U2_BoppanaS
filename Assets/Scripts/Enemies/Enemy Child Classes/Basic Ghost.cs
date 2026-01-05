@@ -110,7 +110,7 @@ public class BasicGhost : Ghost
     }
 
     // ========================= SOUND DETECTION =========================
-    public override void HearSound(Vector3 soundPos)
+    public override void HearSoundInstance(Vector3 soundPos)
     {
         float dist = Vector3.Distance(transform.position, soundPos);
 

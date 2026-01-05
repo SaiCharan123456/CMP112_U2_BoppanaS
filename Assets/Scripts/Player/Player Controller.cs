@@ -22,6 +22,12 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] Animator animator;
 
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip footstepsClip1; // First footstep clip
+    [SerializeField] AudioClip footstepsClip2; // Second footstep clip
+    private float footstepTimer = 0.0f; // Timer to alternate between footsteps
+    private float footstepInterval = 0.5f; // Time interval to switch between footstep sounds
+
     private Vector3 knockbackVelocity;
     private float knockbackDecay = 10f;
 
@@ -64,6 +70,35 @@ public class PlayerController : MonoBehaviour
         }
 
         animator.SetBool("isRunning", isMoving);
+
+        if (isMoving)
+        {
+            footstepTimer += Time.deltaTime;
+
+            if (footstepTimer >= footstepInterval)
+            {
+                // Alternate between the two footstep sounds using a normal if-else block
+                if (audioSource.clip == footstepsClip1)
+                {
+                    audioSource.clip = footstepsClip2;
+                }
+                else
+                {
+                    audioSource.clip = footstepsClip1;
+                }
+
+                Enemy.HearSound(transform.position); // Notify enemies of footstep sound
+
+                audioSource.Play();
+                footstepTimer = 0.0f; // Reset the timer
+            }
+        }
+        else
+        {
+            audioSource.Stop(); // Stop footstep sound if not moving
+            footstepTimer = 0.0f; // Reset the timer when not moving
+        }
+
 
 
         controller.Move(movement * speed * Time.deltaTime);

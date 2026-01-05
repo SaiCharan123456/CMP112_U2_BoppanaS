@@ -199,7 +199,7 @@ public class MediumGhost : Ghost
     }
 
     // ========================= SOUND DETECTION =========================
-    public override void HearSound(Vector3 soundPos)
+    public override void HearSoundInstance(Vector3 soundPos)
     {
         if (Vector3.Distance(transform.position, soundPos) > hearingRange)
             return;

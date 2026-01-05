@@ -141,6 +141,7 @@ public class NormalZombie : Zombie
     {
         animator.SetTrigger("Scream");
         PlaySound(screamClip);
+        HearSound(transform.position); 
         Debug.Log("Zombie screams to attract others!");
         // Play scream sound and alert nearby zombies
         CurrentState = EnemyState.Chase; // After screaming, chase player

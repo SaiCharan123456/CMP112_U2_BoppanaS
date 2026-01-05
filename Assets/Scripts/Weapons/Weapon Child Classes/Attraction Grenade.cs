@@ -20,9 +20,12 @@ public class AttractionGrenade : BaseGrenade
     {
         // Play sound to attract enemies
         if (attractionSound != null)
+        {
             attractionSound.Play();
+            Enemy.HearSound(transform.position);
+        }
+            
 
-        // Optional: enemies can have AI script that reacts to this sound
         yield return new WaitForSeconds(attractionDuration);
 
         // Show explosion VFX
